@@ -1,0 +1,25 @@
+<ion-view title="Step 2: Locate">
+	<ion-content>
+  <body ng-controller="MapController">
+  <div id="map" data-tab-disabled="true"></div>
+  <a id="firebaseRef"></a>
+        <div id="log"></div>
+  
+</ion-content>
+</ion-view>
+<ion-footer-bar align-title="center">
+  <div class="buttons">
+  </div>
+  <h1 class="title"></h1>
+</ion-footer-bar>
+<ion-footer-bar align-title="center">
+  <div class="buttons">
+  </div>
+  <h1 class="title"></h1>
+  <div class="buttons">
+    <button class="button" ng-click="go('/last')">
+Next</button>
+  </div>
+</ion-footer-bar>
+
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB16sGmIekuGIvYOfNoW9T44377IU2d2Es&sensor=true"></script>

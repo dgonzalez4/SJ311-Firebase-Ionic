@@ -1,0 +1,43 @@
+<ion-view title="Step 3: Describe">
+  <ion-content>
+  <form name="myForm">
+  <label>
+    <input type="radio" ng-model="type" ng-value="specialValue1">
+    Graffiti
+  </label><br/>
+  <label>
+    <input type="radio" ng-model="type" ng-value="specialValue2">
+    Illegal Dumping
+  </label><br/>
+  <label>
+    <input type="radio" ng-model="type" ng-value="specialValue3">
+    Homeless Outreach
+  </label><br/>
+   <label>
+    <input type="radio" ng-model="type" ng-value="specialValue4">
+    Water Waste
+  </label><br/>
+   <label>
+    <input type="radio" ng-model="type" ng-value="specialValue5">
+    Abandoned Carts
+  </label><br/>
+   <label>
+    <input type="radio" ng-model="type" ng-value="specialValue6">
+    Littering
+  </label><br/>
+  <tt>{{type | json}}</tt><br/>
+ </form>
+<form ng-submit="submit()">
+  <input type="text" ng-model="text" name="text" />
+  <input type="submit" id="submit" value="Submit" />
+  <pre>list={{list}}</pre>
+</form>
+  <input type="text" ng-model="data.text"/>
+    <h1>You said: {{ data.text }}</h1>
+</ion-content>
+</ion-view>
+<ion-footer-bar align-title="center">
+  <div class="buttons">
+  </div>
+  <h1 class="title"></h1>
+</ion-footer-bar>

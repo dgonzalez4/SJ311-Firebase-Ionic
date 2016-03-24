@@ -1,0 +1,2022 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'open311' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose install initial load of /Users/str8upknowledge/Desktop/app/package.json
+5 warn package.json firebase@1.1.1 No repository field.
+6 warn package.json firebase@1.1.1 No README data
+7 warn package.json firebase@1.1.1 No license field.
+8 verbose installManyTop reading scoped package data from /Users/str8upknowledge/Desktop/app/node_modules/geofire/package.json
+9 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/package.json
+10 silly cache add args [ 'open311', null ]
+11 verbose cache add spec open311
+12 silly cache add parsed spec Result {
+12 silly cache add   raw: 'open311',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'open311',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: '*',
+12 silly cache add   type: 'range' }
+13 silly addNamed open311@*
+14 verbose addNamed "*" is a valid semver range for open311
+15 silly addNameRange { name: 'open311', range: '*', hasData: false }
+16 silly mapToRegistry name open311
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/open311
+20 verbose addNameRange registry:https://registry.npmjs.org/open311 not in flight; fetching
+21 verbose request uri https://registry.npmjs.org/open311
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 11:11:16 PM
+24 verbose request id 92ebdcadd9bec6ff
+25 http request GET https://registry.npmjs.org/open311
+26 http 200 https://registry.npmjs.org/open311
+27 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 verbose headers   etag: '"27EKZ9U6PB9M0VESQMFZLKZE2"',
+27 verbose headers   'content-type': 'application/json',
+27 verbose headers   'cache-control': 'max-age=300',
+27 verbose headers   'content-length': '42658',
+27 verbose headers   'accept-ranges': 'bytes',
+27 verbose headers   date: 'Sat, 02 Jan 2016 07:11:16 GMT',
+27 verbose headers   via: '1.1 varnish',
+27 verbose headers   age: '0',
+27 verbose headers   connection: 'keep-alive',
+27 verbose headers   'x-served-by': 'cache-lax1431-LAX',
+27 verbose headers   'x-cache': 'MISS',
+27 verbose headers   'x-cache-hits': '0',
+27 verbose headers   'x-timer': 'S1451718676.334133,VS0,VE409',
+27 verbose headers   vary: 'Accept' }
+28 silly get cb [ 200,
+28 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+28 silly get     etag: '"27EKZ9U6PB9M0VESQMFZLKZE2"',
+28 silly get     'content-type': 'application/json',
+28 silly get     'cache-control': 'max-age=300',
+28 silly get     'content-length': '42658',
+28 silly get     'accept-ranges': 'bytes',
+28 silly get     date: 'Sat, 02 Jan 2016 07:11:16 GMT',
+28 silly get     via: '1.1 varnish',
+28 silly get     age: '0',
+28 silly get     connection: 'keep-alive',
+28 silly get     'x-served-by': 'cache-lax1431-LAX',
+28 silly get     'x-cache': 'MISS',
+28 silly get     'x-cache-hits': '0',
+28 silly get     'x-timer': 'S1451718676.334133,VS0,VE409',
+28 silly get     vary: 'Accept' } ]
+29 verbose get saving open311 to /Users/str8upknowledge/.npm/registry.npmjs.org/open311/.cache.json
+30 silly addNameRange number 2 { name: 'open311', range: '*', hasData: true }
+31 silly addNameRange versions [ 'open311',
+31 silly addNameRange   [ '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.0.5',
+31 silly addNameRange     '0.0.6',
+31 silly addNameRange     '0.0.7',
+31 silly addNameRange     '0.0.8',
+31 silly addNameRange     '0.0.9',
+31 silly addNameRange     '0.0.10',
+31 silly addNameRange     '0.0.11',
+31 silly addNameRange     '0.0.12' ] ]
+32 silly addNamed open311@0.0.12
+33 verbose addNamed "0.0.12" is a plain semver version for open311
+34 silly mapToRegistry name open311
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npmjs.org/
+37 silly mapToRegistry uri https://registry.npmjs.org/open311
+38 verbose addRemoteTarball https://registry.npmjs.org/open311/-/open311-0.0.12.tgz not in flight; adding
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/open311/-/open311-0.0.12.tgz',
+39 verbose addRemoteTarball   'e4ad83716585921b72fb8d679f7d2b39d961e8af' ]
+40 info retry fetch attempt 1 at 11:11:17 PM
+41 info attempt registry request try #1 at 11:11:17 PM
+42 http fetch GET https://registry.npmjs.org/open311/-/open311-0.0.12.tgz
+43 http fetch 200 https://registry.npmjs.org/open311/-/open311-0.0.12.tgz
+44 silly fetchAndShaCheck shasum e4ad83716585921b72fb8d679f7d2b39d961e8af
+45 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/open311/-/open311-0.0.12.tgz not in flight; adding
+46 verbose addTmpTarball already have metadata; skipping unpack for open311@0.0.12
+47 silly cache afterAdd open311@0.0.12
+48 verbose afterAdd /Users/str8upknowledge/.npm/open311/0.0.12/package/package.json not in flight; writing
+49 verbose afterAdd /Users/str8upknowledge/.npm/open311/0.0.12/package/package.json written
+50 silly install resolved [ { name: 'open311',
+50 silly install resolved     description: 'A Node.js module for interacting with an Open311 API.',
+50 silly install resolved     version: '0.0.12',
+50 silly install resolved     homepage: 'https://github.com/codeforamerica/node-open311',
+50 silly install resolved     author:
+50 silly install resolved      { name: 'Mark Headd',
+50 silly install resolved        email: 'mheadd@gmail.com',
+50 silly install resolved        url: 'http://civic.io' },
+50 silly install resolved     contributors: [ [Object] ],
+50 silly install resolved     main: './open311',
+50 silly install resolved     repository:
+50 silly install resolved      { type: 'git',
+50 silly install resolved        url: 'git://github.com/codeforamerica/node-open311.git' },
+50 silly install resolved     license: 'BSD',
+50 silly install resolved     engines: { node: '>0.6.0' },
+50 silly install resolved     scripts: { test: './node_modules/mocha/bin/mocha' },
+50 silly install resolved     dependencies:
+50 silly install resolved      { request: '~2.11.0',
+50 silly install resolved        lodash: '~0.6.1',
+50 silly install resolved        sparkxml: 'git://github.com/codeforamerica/node-sparkxml.git',
+50 silly install resolved        xml2json: '~0.2.4' },
+50 silly install resolved     devDependencies: { mocha: '~1.4.1', chai: '~1.2.0', sinon: '~1.4.2' },
+50 silly install resolved     _npmUser: { name: 'bensheldon', email: 'ben@codeforamerica.org' },
+50 silly install resolved     _id: 'open311@0.0.12',
+50 silly install resolved     optionalDependencies: {},
+50 silly install resolved     _engineSupported: true,
+50 silly install resolved     _npmVersion: '1.1.12',
+50 silly install resolved     _nodeVersion: 'v0.6.14',
+50 silly install resolved     _defaultsLoaded: true,
+50 silly install resolved     dist:
+50 silly install resolved      { shasum: 'e4ad83716585921b72fb8d679f7d2b39d961e8af',
+50 silly install resolved        tarball: 'http://registry.npmjs.org/open311/-/open311-0.0.12.tgz' },
+50 silly install resolved     readme: '# node-open311\n\n[![Build Status](https://secure.travis-ci.org/codeforamerica/node-open311.png)](http://travis-ci.org/codeforamerica/node-open311)\n\nA Node.js module for interacting with the Open311 API ([GeoReport v2](http://wiki.open311.org/GeoReport_v2)). This module is more than a simple wrapper; it attempts to normalize the response from different Open311 endpoints\' _interpretation_ of the Open311 specification to return consistent results, regardless of implementation or format:\n\n- All responses are returned as native javascript objects/arrays\n- XML-only endpoints are parsed into native javascript objects/arrays that are consistent with JSON results\n- Invalid responses (e.g. malformed JSON that some endpoints may return), are cleaned up and returned as native javascript objects/arrays\n\n## Installation\n\n`npm install open311`\n\n## Brief Example\n\n```javascript\nvar Open311 = require(\'open311\');\n\t\n// Example Open311 Server: City of Baltimore \n// More options here: http://wiki.open311.org/GeoReport_v2/Servers\nvar options = {\n  endpoint     : "http://311.baltimorecity.gov/open311/v2/",\n  jurisdiction : "baltimorecity.gov"\n};\n\t\n// Create a new Open311 object.\nvar baltimore = new Open311(options);\n\t\n// Call serviceRequest with service_request_id\n// to get the status of a specific service request.\nbaltimore.serviceRequest(\'12-00677322\', function(err, data){ \n  console.log(data); // do something with the data!\n});\n```\n\n## Usage\n\n### new Open311(options)\n\nTo use this library, you must instantiate a new Open311 object: `var open311 = new Open311(options)`. \n\nYou can construct by passing a string that corresponds to the id of a city that is defined in the [`cities.json`](https://github.com/codeforamerica/node-open311/blob/master/cities.json) file. \n\ne.g. `var baltimore = new Open311(\'baltimore\');`\n\nOr, you can pass individual `options`, including:\n\n- `endpoint`: the URL of the Open311 server; required for all methods except `Open311.serviceDiscovery()`\n- `jurisdiction`: (optional) the `jurisdiction_id` for a given city, if required\n- `discovery`: the URL Service Discovery; required if using `Open311.serviceDiscovery()` method\n- `format`: the format data should be requested in; only required for XML-only Open311 servers (default: `json`)\n- `apiKey`: your API key; required if using `Open311.submitServiceRequest()` method\n\nAll methods use the standard `callback(err, data)` format.\n\n### serviceDiscovery([options], callback)\n\nFetches a city\'s Service Discovery listing that has URLs of Open311 servers. (Standard: [Service Discovery](http://wiki.open311.org/Service_Discovery))\n\nOptional options:\n\n- `cache`: if `true` the fetched endpoints will set/overwrite the endpoint URL of the Open311 object (default: `false`)\n- `type`: when caching, sets the `test` or `production` endpoint server (default: `production`)\n- `specification`: when caching, sets the matching API specification of the endpoint server (default `http://wiki.open311.org/GeoReport_v2`);\n- `index`: (optional) when caching, if the Service Discovery list multiple servers with identical production/specification settings, this is the index of the resulting matched servers (default: `0`)\n\n```javascript\nvar baltimore = new Open311({\n  discovery: "http://311.baltimorecity.gov/open311/discovery.json"\n});\n\n// Make the API call\nbaltimore.serviceDiscovery({\n  cache: true,\n  type: "production"\n}, function(err, data) {\n  // `data` contains the content of the Service Discovery\n  // `baltimore.endpoint` should now be set because \n  //  we set `cache: true`\n});\n```\n\n\n### serviceList(callback)\n\nFetches a list of acceptable 311 service request types and their associated service codes. (Standard: [GET Service List](http://wiki.open311.org/GeoReport_v2#GET_Service_List))\n\n```javascript\n// an example with Washington, DC, which is an XML-only endpoint\nvar dc = new Open311({\n  "endpoint": "http://app.311.dc.gov/CWI/Open311/v2/",\n  "format": "xml",\n  "jurisdiction": "dc.gov"\n});\n\n// Make the API call\ndc.serviceDiscovery(function(err, data) {\n  // `data` contains a javascript array of javascript objects\n});\n```\n\n### serviceDefinition(service_code, callback)\n\nFetches attributes associated with a service code. Those attributes may be required when submitting a new Service Request (Standard: [GET Service Definition\n](http://wiki.open311.org/GeoReport_v2#GET_Service_Definition))\n\n`service_code` is the string/number returned from an entry in `Open311.serviceList()`\n\n### submitRequest(data, callback)\n\nSubmit a service request. (Standard: [POST Service Request](http://wiki.open311.org/GeoReport_v2#POST_Service_Request))\n\nAccording to the Open311 specification, `data` must include:\n\n- `service_code`\n- `lat` & `long` _OR_ `address_string` _OR_ `address_id`: the specification is wiggly here, but `lat`/`long` is near universally required (despite the "OR")\n- attributes (see `Open311.serviceDefinition`) set with the key `attribute[<code>]` _OR_ assign `data.attributes` to be an object with key/values: e.g. Submitting this:\n    \n  ```javascript\n  data = {\n    "service_code": "ABANDONED_VEHICLE",\n    "lat": 12.345,\n    "long": 67.890,\n    "attributes": {\n      "license_plate": "A234567",\n      "color": "blue"\n    }\n  }\n  ```\n  \n  ...will result in the appropriate and standard-compliant attributes being constructed:\n  \n  ```javascript\n  data = {\n    "service_code": "ABANDONED_VEHICLE",\n    "lat": 12.345,\n    "long": 67.890,\n    "attribute[license_plate]": "A234567",\n    "attribute[color]": "blue"\n  }\n  ```\n\n\n### token(token, callback)\n\nFetches the service_request_id from a temporary token that was received when submitting a Service Request. This is unnecessary if the response from creating a service request does not contain a token. \n(Standard: [GET service_request_id from a token](http://wiki.open311.org/GeoReport_v2#GET_service_request_id_from_a_token))\n\n`token` should either be a string or number.\n\n### serviceRequests([[service_request_ids]], [params], callback) \nFetch a list of existing service requests based on query parameters (Standard: [GET Service Requests](http://wiki.open311.org/GeoReport_v2#GET_Service_Requests))\n\nOptional params might include those on the existing standard, such as:\n- `service_request_id`: a comma delimited list of `service_request_id`s to fetch... or you can submit a javascript array of them as the first argument and they will be formatted correctly in the parameters\n- `service_code`: filter the by the service request\'s service_code\n- `start_date` / `end_date`: filter by the earliest/latest requested_datetime (when the request was submitted).\n- `status`: filter by the status (`open`/`closed`)\n\nOr params might include those not on the standard but widely supported, such as:\n\n- `page` and `page_size`: for paging through results\n\n\n### serviceRequest(service_request_id, callback)\n\nFetches an individual request by its `service_request_id`. (Standard: [GET Service Request](http://wiki.open311.org/GeoReport_v2#GET_Service_Request)).\n\nNote that this is just an alias to `Open311.serviceRequests`, so instead of submitting a single string/numerical `service_request_id`, you can submit an array of them of multiple `service_request_id`s too.\n\ne.g. you can do any of these:\n\n\n```javascript\n// as a string\nbaltimore.serviceRequest(\'12-00677322\', function(err, data){ \n  console.log(data); // do something with the data!\n});\n```\n\nOR\n\n```javascript\n// as an array\nbaltimore.serviceRequest([\'12-00677322\'], function(err, data){ \n  console.log(data); // do something with the data!\n});\n```\n\nOR\n\n```javascript\n// as an even BIGGER array\nbaltimore.serviceRequest([\'12-00677322\', \'12-00677323\'], function(err, data){ \n  console.log(data); // do something with the data!\n});\n```\n\nOR\n\n```javascript\n// as a comma separated query parameter\n// ...but why would you ever want to do that?\nbaltimore.serviceRequest({\n  service_request_id: "12-00677322,12-00677323"\n}, function(err, data){ \n  console.log(data); // do something with the data!\n});\n```\n\n\n',
+50 silly install resolved     maintainers: [ [Object], [Object] ],
+50 silly install resolved     directories: {},
+50 silly install resolved     _shasum: 'e4ad83716585921b72fb8d679f7d2b39d961e8af',
+50 silly install resolved     _resolved: 'https://registry.npmjs.org/open311/-/open311-0.0.12.tgz',
+50 silly install resolved     _from: 'open311@*' } ]
+51 info install open311@0.0.12 into /Users/str8upknowledge/Desktop/app
+52 info installOne open311@0.0.12
+53 verbose installOne of open311 to /Users/str8upknowledge/Desktop/app not in flight; installing
+54 verbose lock using /Users/str8upknowledge/.npm/_locks/open311-5be1ac040f0c18b6.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311
+55 silly install write writing open311 0.0.12 to /Users/str8upknowledge/Desktop/app/node_modules/open311
+56 verbose unbuild node_modules/open311
+57 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311 is being purged from base /Users/str8upknowledge/Desktop/app
+58 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311
+59 verbose tar unpack /Users/str8upknowledge/.npm/open311/0.0.12/package.tgz
+60 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311
+61 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311 is being purged
+62 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry .env
+65 silly gunzTarPerm extractEntry .npmignore
+66 silly gunzTarPerm extractEntry .travis.yml
+67 silly gunzTarPerm extractEntry cities.json
+68 silly gunzTarPerm extractEntry examples/
+69 silly gunzTarPerm extractEntry examples/createrequest.js
+70 silly gunzTarPerm extractEntry examples/getrequest.js
+71 silly gunzTarPerm extractEntry examples/servicediscovery.js
+72 silly gunzTarPerm extractEntry open311.js
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry README.md
+75 silly gunzTarPerm extractEntry test/
+76 silly gunzTarPerm extractEntry test/mocha.opts
+77 silly gunzTarPerm extractEntry test/mocks/
+78 silly gunzTarPerm extractEntry test/mocks/boston-err-submitrequest-base_is_duplicate.xml
+79 silly gunzTarPerm extractEntry test/mocks/boston-submitrequest-token.xml
+80 silly gunzTarPerm extractEntry test/mocks/dc-services-S0301.xml
+81 silly gunzTarPerm extractEntry test/mocks/dc-services.xml
+82 silly gunzTarPerm extractEntry test/mocks/discovery-boston.json
+83 silly gunzTarPerm extractEntry test/mocks/discovery-dc.xml
+84 silly gunzTarPerm extractEntry test/mocks/service-request.xml
+85 silly gunzTarPerm extractEntry test/mocks/service-requests.xml
+86 silly gunzTarPerm extractEntry test/mocks/token.xml
+87 silly gunzTarPerm extractEntry test/open311.spec.js
+88 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/package.json
+89 info preinstall open311@0.0.12
+90 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/package.json
+91 silly prepareForInstallMany adding request@~2.11.0 from open311 dependencies
+92 silly prepareForInstallMany adding lodash@~0.6.1 from open311 dependencies
+93 silly prepareForInstallMany adding sparkxml@git://github.com/codeforamerica/node-sparkxml.git from open311 dependencies
+94 silly prepareForInstallMany adding xml2json@~0.2.4 from open311 dependencies
+95 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/package.json
+96 silly cache add args [ 'request@~2.11.0', null ]
+97 verbose cache add spec request@~2.11.0
+98 silly cache add args [ 'lodash@~0.6.1', null ]
+99 verbose cache add spec lodash@~0.6.1
+100 silly cache add parsed spec Result {
+100 silly cache add   raw: 'request@~2.11.0',
+100 silly cache add   scope: null,
+100 silly cache add   name: 'request',
+100 silly cache add   rawSpec: '~2.11.0',
+100 silly cache add   spec: '>=2.11.0 <2.12.0',
+100 silly cache add   type: 'range' }
+101 silly addNamed request@>=2.11.0 <2.12.0
+102 verbose addNamed ">=2.11.0 <2.12.0" is a valid semver range for request
+103 silly addNameRange { name: 'request', range: '>=2.11.0 <2.12.0', hasData: false }
+104 silly mapToRegistry name request
+105 silly mapToRegistry using default registry
+106 silly mapToRegistry registry https://registry.npmjs.org/
+107 silly mapToRegistry uri https://registry.npmjs.org/request
+108 verbose addNameRange registry:https://registry.npmjs.org/request not in flight; fetching
+109 silly cache add parsed spec Result {
+109 silly cache add   raw: 'lodash@~0.6.1',
+109 silly cache add   scope: null,
+109 silly cache add   name: 'lodash',
+109 silly cache add   rawSpec: '~0.6.1',
+109 silly cache add   spec: '>=0.6.1 <0.7.0',
+109 silly cache add   type: 'range' }
+110 silly addNamed lodash@>=0.6.1 <0.7.0
+111 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for lodash
+112 silly addNameRange { name: 'lodash', range: '>=0.6.1 <0.7.0', hasData: false }
+113 silly mapToRegistry name lodash
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry uri https://registry.npmjs.org/lodash
+117 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+118 silly cache add args [ 'sparkxml@git://github.com/codeforamerica/node-sparkxml.git',
+118 silly cache add   null ]
+119 verbose cache add spec sparkxml@git://github.com/codeforamerica/node-sparkxml.git
+120 silly cache add args [ 'xml2json@~0.2.4', null ]
+121 verbose cache add spec xml2json@~0.2.4
+122 silly cache add parsed spec Result {
+122 silly cache add   raw: 'xml2json@~0.2.4',
+122 silly cache add   scope: null,
+122 silly cache add   name: 'xml2json',
+122 silly cache add   rawSpec: '~0.2.4',
+122 silly cache add   spec: '>=0.2.4 <0.3.0',
+122 silly cache add   type: 'range' }
+123 silly addNamed xml2json@>=0.2.4 <0.3.0
+124 verbose addNamed ">=0.2.4 <0.3.0" is a valid semver range for xml2json
+125 silly addNameRange { name: 'xml2json', range: '>=0.2.4 <0.3.0', hasData: false }
+126 silly mapToRegistry name xml2json
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/xml2json
+130 verbose addNameRange registry:https://registry.npmjs.org/xml2json not in flight; fetching
+131 verbose request uri https://registry.npmjs.org/lodash
+132 verbose request no auth needed
+133 info attempt registry request try #1 at 11:11:17 PM
+134 http request GET https://registry.npmjs.org/lodash
+135 silly cache add parsed spec Result {
+135 silly cache add   raw: 'sparkxml@git://github.com/codeforamerica/node-sparkxml.git',
+135 silly cache add   scope: null,
+135 silly cache add   name: 'sparkxml',
+135 silly cache add   rawSpec: 'git://github.com/codeforamerica/node-sparkxml.git',
+135 silly cache add   spec: 'git://github.com/codeforamerica/node-sparkxml.git',
+135 silly cache add   type: 'hosted',
+135 silly cache add   hosted:
+135 silly cache add    { type: 'github',
+135 silly cache add      ssh: 'git@github.com:codeforamerica/node-sparkxml.git',
+135 silly cache add      sshUrl: 'git+ssh://git@github.com/codeforamerica/node-sparkxml.git',
+135 silly cache add      httpsUrl: 'git+https://github.com/codeforamerica/node-sparkxml.git',
+135 silly cache add      gitUrl: 'git://github.com/codeforamerica/node-sparkxml.git',
+135 silly cache add      shortcut: 'github:codeforamerica/node-sparkxml',
+135 silly cache add      directUrl: 'https://raw.githubusercontent.com/codeforamerica/node-sparkxml/master/package.json' } }
+136 verbose addRemoteGit caching git://github.com/codeforamerica/node-sparkxml.git
+137 verbose addRemoteGit git://github.com/codeforamerica/node-sparkxml.git is a repository hosted by github
+138 silly tryClone cloning git://github.com/codeforamerica/node-sparkxml.git via git://github.com/codeforamerica/node-sparkxml.git
+139 verbose tryClone git-github-com-codeforamerica-node-sparkxml-git-9ecc09f9 not in flight; caching
+140 verbose request uri https://registry.npmjs.org/xml2json
+141 verbose request no auth needed
+142 info attempt registry request try #1 at 11:11:17 PM
+143 http request GET https://registry.npmjs.org/xml2json
+144 verbose makeDirectory /Users/str8upknowledge/.npm/_git-remotes creation not in flight; initializing
+145 silly makeDirectory /Users/str8upknowledge/.npm/_git-remotes uid: 501 gid: 20
+146 verbose request uri https://registry.npmjs.org/request
+147 verbose request no auth needed
+148 info attempt registry request try #1 at 11:11:17 PM
+149 verbose etag "78HQW56LWG0MX20HUVSTG73LH"
+150 http request GET https://registry.npmjs.org/request
+151 info git [ 'clone',
+151 info git   '--template=/Users/str8upknowledge/.npm/_git-remotes/_templates',
+151 info git   '--mirror',
+151 info git   'git://github.com/codeforamerica/node-sparkxml.git',
+151 info git   '/Users/str8upknowledge/.npm/_git-remotes/git-github-com-codeforamerica-node-sparkxml-git-9ecc09f9' ]
+152 http 200 https://registry.npmjs.org/lodash
+153 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+153 verbose headers   etag: '"CGTYPVJRPPNJ9QH7BTBZ8IZ1I"',
+153 verbose headers   'content-type': 'application/json',
+153 verbose headers   'cache-control': 'max-age=300',
+153 verbose headers   'content-length': '113672',
+153 verbose headers   'accept-ranges': 'bytes',
+153 verbose headers   date: 'Sat, 02 Jan 2016 07:11:17 GMT',
+153 verbose headers   via: '1.1 varnish',
+153 verbose headers   age: '194',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-served-by': 'cache-lax1427-LAX',
+153 verbose headers   'x-cache': 'HIT',
+153 verbose headers   'x-cache-hits': '9',
+153 verbose headers   'x-timer': 'S1451718677.367708,VS0,VE0',
+153 verbose headers   vary: 'Accept' }
+154 silly get cb [ 200,
+154 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+154 silly get     etag: '"CGTYPVJRPPNJ9QH7BTBZ8IZ1I"',
+154 silly get     'content-type': 'application/json',
+154 silly get     'cache-control': 'max-age=300',
+154 silly get     'content-length': '113672',
+154 silly get     'accept-ranges': 'bytes',
+154 silly get     date: 'Sat, 02 Jan 2016 07:11:17 GMT',
+154 silly get     via: '1.1 varnish',
+154 silly get     age: '194',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-served-by': 'cache-lax1427-LAX',
+154 silly get     'x-cache': 'HIT',
+154 silly get     'x-cache-hits': '9',
+154 silly get     'x-timer': 'S1451718677.367708,VS0,VE0',
+154 silly get     vary: 'Accept' } ]
+155 verbose get saving lodash to /Users/str8upknowledge/.npm/registry.npmjs.org/lodash/.cache.json
+156 http 200 https://registry.npmjs.org/xml2json
+157 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+157 verbose headers   etag: '"C3WSNJWR0H2LBEOHNAYY9XZE"',
+157 verbose headers   'content-type': 'application/json',
+157 verbose headers   'cache-control': 'max-age=300',
+157 verbose headers   'content-length': '31919',
+157 verbose headers   'accept-ranges': 'bytes',
+157 verbose headers   date: 'Sat, 02 Jan 2016 07:11:17 GMT',
+157 verbose headers   via: '1.1 varnish',
+157 verbose headers   age: '0',
+157 verbose headers   connection: 'keep-alive',
+157 verbose headers   'x-served-by': 'cache-lax1424-LAX',
+157 verbose headers   'x-cache': 'HIT',
+157 verbose headers   'x-cache-hits': '1',
+157 verbose headers   'x-timer': 'S1451718677.387941,VS0,VE46',
+157 verbose headers   vary: 'Accept' }
+158 silly get cb [ 200,
+158 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+158 silly get     etag: '"C3WSNJWR0H2LBEOHNAYY9XZE"',
+158 silly get     'content-type': 'application/json',
+158 silly get     'cache-control': 'max-age=300',
+158 silly get     'content-length': '31919',
+158 silly get     'accept-ranges': 'bytes',
+158 silly get     date: 'Sat, 02 Jan 2016 07:11:17 GMT',
+158 silly get     via: '1.1 varnish',
+158 silly get     age: '0',
+158 silly get     connection: 'keep-alive',
+158 silly get     'x-served-by': 'cache-lax1424-LAX',
+158 silly get     'x-cache': 'HIT',
+158 silly get     'x-cache-hits': '1',
+158 silly get     'x-timer': 'S1451718677.387941,VS0,VE46',
+158 silly get     vary: 'Accept' } ]
+159 verbose get saving xml2json to /Users/str8upknowledge/.npm/registry.npmjs.org/xml2json/.cache.json
+160 silly addNameRange number 2 { name: 'lodash', range: '>=0.6.1 <0.7.0', hasData: true }
+161 silly addNameRange versions [ 'lodash',
+161 silly addNameRange   [ '0.1.0',
+161 silly addNameRange     '0.2.0',
+161 silly addNameRange     '0.2.1',
+161 silly addNameRange     '0.2.2',
+161 silly addNameRange     '0.3.0',
+161 silly addNameRange     '0.3.1',
+161 silly addNameRange     '0.3.2',
+161 silly addNameRange     '0.4.0',
+161 silly addNameRange     '0.4.1',
+161 silly addNameRange     '0.4.2',
+161 silly addNameRange     '0.5.0-rc.1',
+161 silly addNameRange     '0.5.0',
+161 silly addNameRange     '0.5.1',
+161 silly addNameRange     '0.5.2',
+161 silly addNameRange     '0.6.0',
+161 silly addNameRange     '0.6.1',
+161 silly addNameRange     '0.7.0',
+161 silly addNameRange     '0.8.0',
+161 silly addNameRange     '0.8.1',
+161 silly addNameRange     '0.8.2',
+161 silly addNameRange     '0.9.0',
+161 silly addNameRange     '0.9.1',
+161 silly addNameRange     '0.9.2',
+161 silly addNameRange     '0.10.0',
+161 silly addNameRange     '1.0.0-rc.1',
+161 silly addNameRange     '1.0.0-rc.2',
+161 silly addNameRange     '1.0.0-rc.3',
+161 silly addNameRange     '1.0.0',
+161 silly addNameRange     '1.0.1',
+161 silly addNameRange     '1.1.0',
+161 silly addNameRange     '1.1.1',
+161 silly addNameRange     '1.2.0',
+161 silly addNameRange     '1.2.1',
+161 silly addNameRange     '1.3.0',
+161 silly addNameRange     '1.3.1',
+161 silly addNameRange     '2.0.0',
+161 silly addNameRange     '2.1.0',
+161 silly addNameRange     '2.2.0',
+161 silly addNameRange     '2.2.1',
+161 silly addNameRange     '2.3.0',
+161 silly addNameRange     '2.4.0',
+161 silly addNameRange     '2.4.1',
+161 silly addNameRange     '3.0.0',
+161 silly addNameRange     '3.0.1',
+161 silly addNameRange     '3.1.0',
+161 silly addNameRange     '3.2.0',
+161 silly addNameRange     '3.3.0',
+161 silly addNameRange     '3.3.1',
+161 silly addNameRange     '3.4.0',
+161 silly addNameRange     '3.5.0',
+161 silly addNameRange     '3.6.0',
+161 silly addNameRange     '1.0.2',
+161 silly addNameRange     '3.7.0',
+161 silly addNameRange     '2.4.2',
+161 silly addNameRange     '3.8.0',
+161 silly addNameRange     '3.9.0',
+161 silly addNameRange     '3.9.1',
+161 silly addNameRange     '3.9.2',
+161 silly addNameRange     '3.9.3',
+161 silly addNameRange     '3.10.0',
+161 silly addNameRange     '3.10.1' ] ]
+162 silly addNamed lodash@0.6.1
+163 verbose addNamed "0.6.1" is a plain semver version for lodash
+164 warn deprecated lodash@0.6.1: lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0
+165 silly addNameRange number 2 { name: 'xml2json', range: '>=0.2.4 <0.3.0', hasData: true }
+166 silly addNameRange versions [ 'xml2json',
+166 silly addNameRange   [ '0.1.0',
+166 silly addNameRange     '0.1.1',
+166 silly addNameRange     '0.2.0',
+166 silly addNameRange     '0.2.1',
+166 silly addNameRange     '0.2.2',
+166 silly addNameRange     '0.2.3',
+166 silly addNameRange     '0.2.4',
+166 silly addNameRange     '0.3.0',
+166 silly addNameRange     '0.3.1',
+166 silly addNameRange     '0.3.2',
+166 silly addNameRange     '0.4.0',
+166 silly addNameRange     '0.5.0',
+166 silly addNameRange     '0.5.1',
+166 silly addNameRange     '0.6.0',
+166 silly addNameRange     '0.6.1',
+166 silly addNameRange     '0.6.2',
+166 silly addNameRange     '0.7.0',
+166 silly addNameRange     '0.7.1',
+166 silly addNameRange     '0.8.0',
+166 silly addNameRange     '0.8.1',
+166 silly addNameRange     '0.8.2',
+166 silly addNameRange     '0.9.0' ] ]
+167 silly addNamed xml2json@0.2.4
+168 verbose addNamed "0.2.4" is a plain semver version for xml2json
+169 http 200 https://registry.npmjs.org/request
+170 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+170 verbose headers   etag: '"26U4QWPK79LW373UYH2PQLAXQ"',
+170 verbose headers   'content-type': 'application/json',
+170 verbose headers   'cache-control': 'max-age=300',
+170 verbose headers   'content-length': '180700',
+170 verbose headers   'accept-ranges': 'bytes',
+170 verbose headers   date: 'Sat, 02 Jan 2016 07:11:17 GMT',
+170 verbose headers   via: '1.1 varnish',
+170 verbose headers   age: '159',
+170 verbose headers   connection: 'keep-alive',
+170 verbose headers   'x-served-by': 'cache-lax1431-LAX',
+170 verbose headers   'x-cache': 'HIT',
+170 verbose headers   'x-cache-hits': '3',
+170 verbose headers   'x-timer': 'S1451718677.387952,VS0,VE0',
+170 verbose headers   vary: 'Accept' }
+171 silly get cb [ 200,
+171 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+171 silly get     etag: '"26U4QWPK79LW373UYH2PQLAXQ"',
+171 silly get     'content-type': 'application/json',
+171 silly get     'cache-control': 'max-age=300',
+171 silly get     'content-length': '180700',
+171 silly get     'accept-ranges': 'bytes',
+171 silly get     date: 'Sat, 02 Jan 2016 07:11:17 GMT',
+171 silly get     via: '1.1 varnish',
+171 silly get     age: '159',
+171 silly get     connection: 'keep-alive',
+171 silly get     'x-served-by': 'cache-lax1431-LAX',
+171 silly get     'x-cache': 'HIT',
+171 silly get     'x-cache-hits': '3',
+171 silly get     'x-timer': 'S1451718677.387952,VS0,VE0',
+171 silly get     vary: 'Accept' } ]
+172 verbose get saving request to /Users/str8upknowledge/.npm/registry.npmjs.org/request/.cache.json
+173 silly mapToRegistry name lodash
+174 silly mapToRegistry using default registry
+175 silly mapToRegistry registry https://registry.npmjs.org/
+176 silly mapToRegistry uri https://registry.npmjs.org/lodash
+177 verbose addRemoteTarball https://registry.npmjs.org/lodash/-/lodash-0.6.1.tgz not in flight; adding
+178 verbose addRemoteTarball [ 'https://registry.npmjs.org/lodash/-/lodash-0.6.1.tgz',
+178 verbose addRemoteTarball   '9b093d490fd4fc50091609a92f4bbb5d10396357' ]
+179 silly mapToRegistry name xml2json
+180 silly mapToRegistry using default registry
+181 silly mapToRegistry registry https://registry.npmjs.org/
+182 silly mapToRegistry uri https://registry.npmjs.org/xml2json
+183 verbose addRemoteTarball https://registry.npmjs.org/xml2json/-/xml2json-0.2.4.tgz not in flight; adding
+184 verbose addRemoteTarball [ 'https://registry.npmjs.org/xml2json/-/xml2json-0.2.4.tgz',
+184 verbose addRemoteTarball   'e62d6beb4c84c48c2e9dbcc2c34d946bea181279' ]
+185 info retry fetch attempt 1 at 11:11:17 PM
+186 info attempt registry request try #1 at 11:11:17 PM
+187 http fetch GET https://registry.npmjs.org/lodash/-/lodash-0.6.1.tgz
+188 info retry fetch attempt 1 at 11:11:17 PM
+189 info attempt registry request try #1 at 11:11:17 PM
+190 http fetch GET https://registry.npmjs.org/xml2json/-/xml2json-0.2.4.tgz
+191 silly addNameRange number 2 { name: 'request', range: '>=2.11.0 <2.12.0', hasData: true }
+192 silly addNameRange versions [ 'request',
+192 silly addNameRange   [ '0.10.0',
+192 silly addNameRange     '0.8.3',
+192 silly addNameRange     '0.9.0',
+192 silly addNameRange     '0.9.1',
+192 silly addNameRange     '0.9.5',
+192 silly addNameRange     '1.0.0',
+192 silly addNameRange     '1.1.0',
+192 silly addNameRange     '1.1.1',
+192 silly addNameRange     '1.2.0',
+192 silly addNameRange     '1.9.0',
+192 silly addNameRange     '1.9.1',
+192 silly addNameRange     '1.9.2',
+192 silly addNameRange     '1.9.3',
+192 silly addNameRange     '1.9.5',
+192 silly addNameRange     '1.9.7',
+192 silly addNameRange     '1.9.8',
+192 silly addNameRange     '1.9.9',
+192 silly addNameRange     '2.0.0',
+192 silly addNameRange     '2.0.1',
+192 silly addNameRange     '2.0.2',
+192 silly addNameRange     '2.0.3',
+192 silly addNameRange     '2.0.4',
+192 silly addNameRange     '2.0.5',
+192 silly addNameRange     '2.1.0',
+192 silly addNameRange     '2.1.1',
+192 silly addNameRange     '2.2.0',
+192 silly addNameRange     '2.2.5',
+192 silly addNameRange     '2.2.6',
+192 silly addNameRange     '2.2.9',
+192 silly addNameRange     '2.9.0',
+192 silly addNameRange     '2.9.1',
+192 silly addNameRange     '2.9.2',
+192 silly addNameRange     '2.9.3',
+192 silly addNameRange     '2.9.100',
+192 silly addNameRange     '2.9.150',
+192 silly addNameRange     '2.9.151',
+192 silly addNameRange     '2.9.152',
+192 silly addNameRange     '2.9.153',
+192 silly addNameRange     '2.9.200',
+192 silly addNameRange     '2.9.201',
+192 silly addNameRange     '2.9.202',
+192 silly addNameRange     '2.9.203',
+192 silly addNameRange     '2.10.0',
+192 silly addNameRange     '2.11.0',
+192 silly addNameRange     '2.11.1',
+192 silly addNameRange     '2.11.2',
+192 silly addNameRange     '2.11.3',
+192 silly addNameRange     '2.11.4',
+192 silly addNameRange     '2.12.0',
+192 silly addNameRange     '2.14.0',
+192 silly addNameRange     '2.16.0',
+192 silly addNameRange     '2.16.2',
+192 silly addNameRange     '2.16.4',
+192 silly addNameRange     '2.16.6',
+192 silly addNameRange     '2.18.0',
+192 silly addNameRange     '2.19.0',
+192 silly addNameRange     '2.20.0',
+192 silly addNameRange     '2.21.0',
+192 silly addNameRange     '2.22.0',
+192 silly addNameRange     '2.23.0',
+192 silly addNameRange     '2.24.0',
+192 silly addNameRange     '2.25.0',
+192 silly addNameRange     '2.26.0',
+192 silly addNameRange     '2.27.0',
+192 silly addNameRange     '2.28.0',
+192 silly addNameRange     '2.29.0',
+192 silly addNameRange     '2.30.0',
+192 silly addNameRange     '2.31.0',
+192 silly addNameRange     '2.32.0',
+192 silly addNameRange     '2.33.0',
+192 silly addNameRange     '2.34.0',
+192 silly addNameRange     '2.35.0',
+192 silly addNameRange     '2.36.0',
+192 silly addNameRange     '2.37.0',
+192 silly addNameRange     '2.38.0',
+192 silly addNameRange     '2.39.0',
+192 silly addNameRange     '2.40.0',
+192 silly addNameRange     '2.41.0',
+192 silly addNameRange     '2.42.0',
+192 silly addNameRange     '2.43.0',
+192 silly addNameRange     '2.44.0',
+192 silly addNameRange     '2.45.0',
+192 silly addNameRange     '2.46.0',
+192 silly addNameRange     '2.47.0',
+192 silly addNameRange     '2.48.0',
+192 silly addNameRange     '2.49.0',
+192 silly addNameRange     '2.50.0',
+192 silly addNameRange     '2.51.0',
+192 silly addNameRange     '2.52.0',
+192 silly addNameRange     '2.53.0',
+192 silly addNameRange     '2.54.0',
+192 silly addNameRange     '2.55.0',
+192 silly addNameRange     '2.56.0',
+192 silly addNameRange     '2.57.0',
+192 silly addNameRange     '2.58.0',
+192 silly addNameRange     '2.59.0',
+192 silly addNameRange     '2.60.0',
+192 silly addNameRange     '2.61.0',
+192 silly addNameRange     '2.62.0',
+192 silly addNameRange     '2.63.0',
+192 silly addNameRange     '2.64.0',
+192 silly addNameRange     '2.65.0',
+192 silly addNameRange     '2.66.0',
+192 silly addNameRange     '2.67.0' ] ]
+193 silly addNamed request@2.11.4
+194 verbose addNamed "2.11.4" is a plain semver version for request
+195 silly mapToRegistry name request
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry uri https://registry.npmjs.org/request
+199 verbose addRemoteTarball https://registry.npmjs.org/request/-/request-2.11.4.tgz not in flight; adding
+200 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.11.4.tgz',
+200 verbose addRemoteTarball   '6347d7d44e52dc588108cc1ce5cee975fc8926de' ]
+201 info retry fetch attempt 1 at 11:11:17 PM
+202 info attempt registry request try #1 at 11:11:17 PM
+203 http fetch GET https://registry.npmjs.org/request/-/request-2.11.4.tgz
+204 http fetch 200 https://registry.npmjs.org/request/-/request-2.11.4.tgz
+205 silly fetchAndShaCheck shasum 6347d7d44e52dc588108cc1ce5cee975fc8926de
+206 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/request/-/request-2.11.4.tgz not in flight; adding
+207 verbose addTmpTarball already have metadata; skipping unpack for request@2.11.4
+208 silly cache afterAdd request@2.11.4
+209 verbose afterAdd /Users/str8upknowledge/.npm/request/2.11.4/package/package.json not in flight; writing
+210 verbose afterAdd /Users/str8upknowledge/.npm/request/2.11.4/package/package.json written
+211 http fetch 200 https://registry.npmjs.org/xml2json/-/xml2json-0.2.4.tgz
+212 silly fetchAndShaCheck shasum e62d6beb4c84c48c2e9dbcc2c34d946bea181279
+213 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/xml2json/-/xml2json-0.2.4.tgz not in flight; adding
+214 verbose addTmpTarball already have metadata; skipping unpack for xml2json@0.2.4
+215 silly cache afterAdd xml2json@0.2.4
+216 verbose afterAdd /Users/str8upknowledge/.npm/xml2json/0.2.4/package/package.json not in flight; writing
+217 verbose afterAdd /Users/str8upknowledge/.npm/xml2json/0.2.4/package/package.json written
+218 verbose mirrorRemote git://github.com/codeforamerica/node-sparkxml.git git clone git://github.com/codeforamerica/node-sparkxml.git
+219 verbose setPermissions git://github.com/codeforamerica/node-sparkxml.git set permissions on /Users/str8upknowledge/.npm/_git-remotes/git-github-com-codeforamerica-node-sparkxml-git-9ecc09f9
+220 verbose resolveHead git://github.com/codeforamerica/node-sparkxml.git original treeish: master
+221 info git [ 'rev-list', '-n1', 'master' ]
+222 silly resolveHead git://github.com/codeforamerica/node-sparkxml.git resolved treeish: 9e5d45eed8faa8c72319d2d3860611d3abcf8e90
+223 verbose resolveHead git://github.com/codeforamerica/node-sparkxml.git resolved Git URL: git://github.com/codeforamerica/node-sparkxml.git#9e5d45eed8faa8c72319d2d3860611d3abcf8e90
+224 silly resolveHead Git working directory: /tmp/npm-2389-b4071a86/git-cache-cc931be4efec/9e5d45eed8faa8c72319d2d3860611d3abcf8e90
+225 info git [ 'clone',
+225 info git   '/Users/str8upknowledge/.npm/_git-remotes/git-github-com-codeforamerica-node-sparkxml-git-9ecc09f9',
+225 info git   '/tmp/npm-2389-b4071a86/git-cache-cc931be4efec/9e5d45eed8faa8c72319d2d3860611d3abcf8e90' ]
+226 verbose cloneResolved git://github.com/codeforamerica/node-sparkxml.git clone Cloning into '/tmp/npm-2389-b4071a86/git-cache-cc931be4efec/9e5d45eed8faa8c72319d2d3860611d3abcf8e90'...
+226 verbose cloneResolved done.
+227 info git [ 'checkout', '9e5d45eed8faa8c72319d2d3860611d3abcf8e90' ]
+228 verbose checkoutTreeish git://github.com/codeforamerica/node-sparkxml.git checkout Note: checking out '9e5d45eed8faa8c72319d2d3860611d3abcf8e90'.
+228 verbose checkoutTreeish
+228 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+228 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+228 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+228 verbose checkoutTreeish
+228 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+228 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+228 verbose checkoutTreeish
+228 verbose checkoutTreeish   git checkout -b <new-branch-name>
+228 verbose checkoutTreeish
+228 verbose checkoutTreeish HEAD is now at 9e5d45e... Bump version number, update copyright, fix license identifier, note @milovanderlinden's contributions.
+229 verbose addLocalDirectory /Users/str8upknowledge/.npm/sparkxml/0.1.3/package.tgz not in flight; packing
+230 verbose tar pack [ '/Users/str8upknowledge/.npm/sparkxml/0.1.3/package.tgz',
+230 verbose tar pack   '/tmp/npm-2389-b4071a86/git-cache-cc931be4efec/9e5d45eed8faa8c72319d2d3860611d3abcf8e90' ]
+231 verbose tarball /Users/str8upknowledge/.npm/sparkxml/0.1.3/package.tgz
+232 verbose folder /tmp/npm-2389-b4071a86/git-cache-cc931be4efec/9e5d45eed8faa8c72319d2d3860611d3abcf8e90
+233 verbose addLocalTarball adding from inside cache /Users/str8upknowledge/.npm/sparkxml/0.1.3/package.tgz
+234 verbose addRemoteGit data._from: git://github.com/codeforamerica/node-sparkxml.git
+235 verbose addRemoteGit data._resolved: git://github.com/codeforamerica/node-sparkxml.git#9e5d45eed8faa8c72319d2d3860611d3abcf8e90
+236 silly cache afterAdd sparkxml@0.1.3
+237 verbose afterAdd /Users/str8upknowledge/.npm/sparkxml/0.1.3/package/package.json not in flight; writing
+238 verbose afterAdd /Users/str8upknowledge/.npm/sparkxml/0.1.3/package/package.json written
+239 http fetch 200 https://registry.npmjs.org/lodash/-/lodash-0.6.1.tgz
+240 silly fetchAndShaCheck shasum 9b093d490fd4fc50091609a92f4bbb5d10396357
+241 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/lodash/-/lodash-0.6.1.tgz not in flight; adding
+242 verbose addTmpTarball already have metadata; skipping unpack for lodash@0.6.1
+243 silly cache afterAdd lodash@0.6.1
+244 verbose afterAdd /Users/str8upknowledge/.npm/lodash/0.6.1/package/package.json not in flight; writing
+245 verbose afterAdd /Users/str8upknowledge/.npm/lodash/0.6.1/package/package.json written
+246 silly install resolved [ { name: 'request',
+246 silly install resolved     description: 'Simplified HTTP request client.',
+246 silly install resolved     tags: [ 'http', 'simple', 'util', 'utility' ],
+246 silly install resolved     version: '2.11.4',
+246 silly install resolved     author: { name: 'Mikeal Rogers', email: 'mikeal.rogers@gmail.com' },
+246 silly install resolved     repository: { type: 'git', url: 'git://github.com/mikeal/request.git' },
+246 silly install resolved     bugs: { url: 'http://github.com/mikeal/request/issues' },
+246 silly install resolved     engines: [ 'node >= 0.3.6' ],
+246 silly install resolved     main: './main',
+246 silly install resolved     dependencies: { 'form-data': '~0.0.3', mime: '~1.2.7' },
+246 silly install resolved     bundleDependencies: [ 'form-data', 'mime' ],
+246 silly install resolved     scripts: { test: 'node tests/run.js' },
+246 silly install resolved     _npmUser: { name: 'mikeal', email: 'mikeal.rogers@gmail.com' },
+246 silly install resolved     _id: 'request@2.11.4',
+246 silly install resolved     devDependencies: {},
+246 silly install resolved     optionalDependencies: {},
+246 silly install resolved     _engineSupported: true,
+246 silly install resolved     _npmVersion: '1.1.24',
+246 silly install resolved     _nodeVersion: 'v0.8.1',
+246 silly install resolved     _defaultsLoaded: true,
+246 silly install resolved     dist:
+246 silly install resolved      { shasum: '6347d7d44e52dc588108cc1ce5cee975fc8926de',
+246 silly install resolved        tarball: 'http://registry.npmjs.org/request/-/request-2.11.4.tgz' },
+246 silly install resolved     maintainers: [ [Object] ],
+246 silly install resolved     directories: {},
+246 silly install resolved     _shasum: '6347d7d44e52dc588108cc1ce5cee975fc8926de',
+246 silly install resolved     _resolved: 'https://registry.npmjs.org/request/-/request-2.11.4.tgz',
+246 silly install resolved     _from: 'request@>=2.11.0 <2.12.0' },
+246 silly install resolved   { name: 'xml2json',
+246 silly install resolved     version: '0.2.4',
+246 silly install resolved     author: { name: 'Andrew Turley' },
+246 silly install resolved     email: 'aturley@buglabs.net',
+246 silly install resolved     description: 'Converts xml to json and viceverza, using node-expat.',
+246 silly install resolved     repository:
+246 silly install resolved      { type: 'git',
+246 silly install resolved        url: 'git://github.com/buglabs/node-xml2json.git' },
+246 silly install resolved     main: 'index',
+246 silly install resolved     contributors: [ [Object] ],
+246 silly install resolved     dependencies: { 'node-expat': '1.4.1' },
+246 silly install resolved     _npmUser: { name: 'c4milo', email: 'camilo.aguilar@gmail.com' },
+246 silly install resolved     _id: 'xml2json@0.2.4',
+246 silly install resolved     devDependencies: {},
+246 silly install resolved     optionalDependencies: {},
+246 silly install resolved     engines: { node: '*' },
+246 silly install resolved     _engineSupported: true,
+246 silly install resolved     _npmVersion: '1.1.21',
+246 silly install resolved     _nodeVersion: 'v0.6.17',
+246 silly install resolved     _defaultsLoaded: true,
+246 silly install resolved     dist:
+246 silly install resolved      { shasum: 'e62d6beb4c84c48c2e9dbcc2c34d946bea181279',
+246 silly install resolved        tarball: 'http://registry.npmjs.org/xml2json/-/xml2json-0.2.4.tgz' },
+246 silly install resolved     maintainers: [ [Object], [Object] ],
+246 silly install resolved     directories: {},
+246 silly install resolved     _shasum: 'e62d6beb4c84c48c2e9dbcc2c34d946bea181279',
+246 silly install resolved     _resolved: 'https://registry.npmjs.org/xml2json/-/xml2json-0.2.4.tgz',
+246 silly install resolved     _from: 'xml2json@>=0.2.4 <0.3.0' },
+246 silly install resolved   { name: 'sparkxml',
+246 silly install resolved     version: '0.1.3',
+246 silly install resolved     description: 'Parse XML according to the "Spark" convention (http://wiki.open311.org/JSON_and_XML_Conversion#The_Spark_Convention).',
+246 silly install resolved     main: 'sparkxml.js',
+246 silly install resolved     scripts: { test: 'echo "There are no tests! Someone should totally write some. That would be awesome." && exit 1' },
+246 silly install resolved     dependencies: { libxmljs: '^0.15.0' },
+246 silly install resolved     repository:
+246 silly install resolved      { type: 'git',
+246 silly install resolved        url: 'git+https://github.com/codeforamerica/node-sparkxml.git' },
+246 silly install resolved     keywords: [ 'XML', 'Spark' ],
+246 silly install resolved     author: { name: 'Rob Brackett' },
+246 silly install resolved     license: 'BSD-3-Clause',
+246 silly install resolved     gitHead: '9e5d45eed8faa8c72319d2d3860611d3abcf8e90',
+246 silly install resolved     readme: '# Node-SparkXML\n\nNode-SparkXML is a a simple Node.js-based XML parser.\nIt parses according to the "Spark" convention, which is a slight modification of the "Parker" convention.\n\n> The Spark convention is a slight modification of the Parker convention. It treats nested child elements as demarcating the beginning of an array if there is only one kind of child (a repeating element)… Parker almost does this, but if there is only one child in the container, it doesn\'t think it should be an array. The Spark convention ensures that child is always an array even if there\'s only one of them.\n\nMore info can be found at:\nhttp://wiki.open311.org/JSON_and_XML_Conversion#The_Spark_Convention\nhttp://wiki.open311.org/Parker_vs_Spark\n\n_This library was mainly developed for tools around Open311, which uses the Spark convention, but it could be useful in plenty of other cases._\n\n## Copyright\n\nCopyright (c) 2012-2015 Code for America. See [LICENSE][] for details.\n\nThanks to Oiva Eskola <https://github.com/oiva> and Milo van der Linden <https://github.com/milovanderlinden> for additional contributions.\n\n[license]: https://github.com/codeforamerica/node-sparkxml/blob/master/LICENSE\n',
+246 silly install resolved     readmeFilename: 'README.md',
+246 silly install resolved     bugs: { url: 'https://github.com/codeforamerica/node-sparkxml/issues' },
+246 silly install resolved     homepage: 'https://github.com/codeforamerica/node-sparkxml#readme',
+246 silly install resolved     _id: 'sparkxml@0.1.3',
+246 silly install resolved     _shasum: '50d9498b4452a813695fa18ef91903fa60d2e7ca',
+246 silly install resolved     _from: 'git://github.com/codeforamerica/node-sparkxml.git',
+246 silly install resolved     _resolved: 'git://github.com/codeforamerica/node-sparkxml.git#9e5d45eed8faa8c72319d2d3860611d3abcf8e90' },
+246 silly install resolved   { name: 'lodash',
+246 silly install resolved     version: '0.6.1',
+246 silly install resolved     description: 'A drop-in replacement for Underscore.js delivering performance, bug fixes, and additional features.',
+246 silly install resolved     homepage: 'http://lodash.com',
+246 silly install resolved     main: 'lodash',
+246 silly install resolved     keywords:
+246 silly install resolved      [ 'browser',
+246 silly install resolved        'client',
+246 silly install resolved        'functional',
+246 silly install resolved        'performance',
+246 silly install resolved        'server',
+246 silly install resolved        'speed',
+246 silly install resolved        'util' ],
+246 silly install resolved     licenses: [ [Object] ],
+246 silly install resolved     author:
+246 silly install resolved      { name: 'John-David Dalton',
+246 silly install resolved        email: 'john.david.dalton@gmail.com',
+246 silly install resolved        url: 'http://allyoucanleet.com/' },
+246 silly install resolved     bugs: { url: 'https://github.com/bestiejs/lodash/issues' },
+246 silly install resolved     repository: { type: 'git', url: 'https://github.com/bestiejs/lodash.git' },
+246 silly install resolved     bin: { lodash: './build.js' },
+246 silly install resolved     directories: { doc: './doc', test: './test' },
+246 silly install resolved     engines: [ 'node', 'rhino' ],
+246 silly install resolved     jam: { main: 'lodash.min.js' },
+246 silly install resolved     scripts: { build: 'node build', test: 'node test/test' },
+246 silly install resolved     _id: 'lodash@0.6.1',
+246 silly install resolved     dist:
+246 silly install resolved      { shasum: '9b093d490fd4fc50091609a92f4bbb5d10396357',
+246 silly install resolved        tarball: 'http://registry.npmjs.org/lodash/-/lodash-0.6.1.tgz' },
+246 silly install resolved     _npmVersion: '1.1.59',
+246 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+246 silly install resolved     maintainers: [ [Object] ],
+246 silly install resolved     deprecated: 'lodash@<2.0.0 is no longer maintained. Upgrade to lodash@^3.0.0',
+246 silly install resolved     _shasum: '9b093d490fd4fc50091609a92f4bbb5d10396357',
+246 silly install resolved     _resolved: 'https://registry.npmjs.org/lodash/-/lodash-0.6.1.tgz',
+246 silly install resolved     _from: 'lodash@>=0.6.1 <0.7.0' } ]
+247 info install request@2.11.4 into /Users/str8upknowledge/Desktop/app/node_modules/open311
+248 info install xml2json@0.2.4 into /Users/str8upknowledge/Desktop/app/node_modules/open311
+249 info install sparkxml@0.1.3 into /Users/str8upknowledge/Desktop/app/node_modules/open311
+250 info install lodash@0.6.1 into /Users/str8upknowledge/Desktop/app/node_modules/open311
+251 info installOne request@2.11.4
+252 verbose installOne of request to /Users/str8upknowledge/Desktop/app/node_modules/open311 not in flight; installing
+253 info installOne xml2json@0.2.4
+254 verbose installOne of xml2json to /Users/str8upknowledge/Desktop/app/node_modules/open311 not in flight; installing
+255 info installOne sparkxml@0.1.3
+256 verbose installOne of sparkxml to /Users/str8upknowledge/Desktop/app/node_modules/open311 not in flight; installing
+257 info installOne lodash@0.6.1
+258 verbose installOne of lodash to /Users/str8upknowledge/Desktop/app/node_modules/open311 not in flight; installing
+259 verbose lock using /Users/str8upknowledge/.npm/_locks/request-bda9f744057a3773.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+260 verbose lock using /Users/str8upknowledge/.npm/_locks/xml2json-0beaaa5cfcf0cac5.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+261 verbose lock using /Users/str8upknowledge/.npm/_locks/sparkxml-451ac0a2700555fc.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+262 silly install write writing request 2.11.4 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+263 silly install write writing xml2json 0.2.4 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+264 verbose lock using /Users/str8upknowledge/.npm/_locks/lodash-d7e01ec9b547d624.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+265 silly install write writing sparkxml 0.1.3 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+266 silly install write writing lodash 0.6.1 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+267 verbose unbuild node_modules/open311/node_modules/request
+268 verbose unbuild node_modules/open311/node_modules/xml2json
+269 verbose unbuild node_modules/open311/node_modules/sparkxml
+270 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request is being purged from base /Users/str8upknowledge/Desktop/app
+271 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+272 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json is being purged from base /Users/str8upknowledge/Desktop/app
+273 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+274 verbose unbuild node_modules/open311/node_modules/lodash
+275 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml is being purged from base /Users/str8upknowledge/Desktop/app
+276 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+277 verbose tar unpack /Users/str8upknowledge/.npm/request/2.11.4/package.tgz
+278 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+279 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request is being purged
+280 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+281 verbose tar unpack /Users/str8upknowledge/.npm/xml2json/0.2.4/package.tgz
+282 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+283 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json is being purged
+284 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+285 verbose tar unpack /Users/str8upknowledge/.npm/sparkxml/0.1.3/package.tgz
+286 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+287 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml is being purged
+288 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+289 silly gunzTarPerm modes [ '755', '644' ]
+290 silly gunzTarPerm modes [ '755', '644' ]
+291 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash is being purged from base /Users/str8upknowledge/Desktop/app
+292 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+293 silly gunzTarPerm modes [ '755', '644' ]
+294 verbose tar unpack /Users/str8upknowledge/.npm/lodash/0.6.1/package.tgz
+295 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+296 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash is being purged
+297 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+298 silly gunzTarPerm modes [ '755', '644' ]
+299 silly gunzTarPerm extractEntry package.json
+300 silly gunzTarPerm extractEntry package.json
+301 silly gunzTarPerm extractEntry package.json
+302 silly gunzTarPerm extractEntry package.json
+303 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+304 silly gunzTarPerm extractEntry README.md
+305 silly gunzTarPerm extractEntry LICENSE
+306 silly gunzTarPerm extractEntry .npmignore
+307 silly gunzTarPerm extractEntry README.md
+308 silly gunzTarPerm extractEntry .npmignore
+309 silly gunzTarPerm extractEntry README.md
+310 silly gunzTarPerm extractEntry README.md
+311 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+312 silly gunzTarPerm extractEntry lodash.min.js
+313 silly gunzTarPerm modified mode [ 'lodash.min.js', 438, 420 ]
+314 silly gunzTarPerm extractEntry main.js
+315 silly gunzTarPerm extractEntry index.js
+316 silly gunzTarPerm extractEntry lib/index.js
+317 silly gunzTarPerm extractEntry LICENSE
+318 silly gunzTarPerm extractEntry sparkxml.js
+319 silly gunzTarPerm extractEntry lodash.js
+320 silly gunzTarPerm modified mode [ 'lodash.js', 438, 420 ]
+321 silly gunzTarPerm extractEntry lib/json2xml.js
+322 silly gunzTarPerm extractEntry lib/xml2json.js
+323 silly gunzTarPerm extractEntry uuid.js
+324 silly gunzTarPerm extractEntry oauth.js
+325 silly gunzTarPerm extractEntry build.js
+326 silly gunzTarPerm modified mode [ 'build.js', 511, 493 ]
+327 silly gunzTarPerm extractEntry doc/README.md
+328 silly gunzTarPerm modified mode [ 'doc/README.md', 438, 420 ]
+329 silly gunzTarPerm extractEntry LICENSE.txt
+330 silly gunzTarPerm modified mode [ 'LICENSE.txt', 438, 420 ]
+331 silly gunzTarPerm extractEntry test/test.js
+332 silly gunzTarPerm extractEntry test/fixtures/domain-reversible.json
+333 silly gunzTarPerm extractEntry forever.js
+334 silly gunzTarPerm extractEntry tunnel.js
+335 silly gunzTarPerm extractEntry aws.js
+336 silly gunzTarPerm extractEntry tests/test-https-strict.js
+337 silly gunzTarPerm extractEntry test/fixtures/domain.json
+338 silly gunzTarPerm extractEntry test/fixtures/domain.xml
+339 silly gunzTarPerm extractEntry perf/perf.js
+340 silly gunzTarPerm modified mode [ 'perf/perf.js', 438, 420 ]
+341 silly gunzTarPerm extractEntry build/minify.js
+342 silly gunzTarPerm modified mode [ 'build/minify.js', 511, 493 ]
+343 silly gunzTarPerm extractEntry build/post-compile.js
+344 silly gunzTarPerm modified mode [ 'build/post-compile.js', 438, 420 ]
+345 silly gunzTarPerm extractEntry build/pre-compile.js
+346 silly gunzTarPerm modified mode [ 'build/pre-compile.js', 438, 420 ]
+347 silly gunzTarPerm extractEntry tests/test-headers.js
+348 silly gunzTarPerm extractEntry tests/test-httpModule.js
+349 silly gunzTarPerm extractEntry test/test.js
+350 silly gunzTarPerm modified mode [ 'test/test.js', 438, 420 ]
+351 silly gunzTarPerm extractEntry vendor/benchmark.js/README.md
+352 silly gunzTarPerm modified mode [ 'vendor/benchmark.js/README.md', 438, 420 ]
+353 silly gunzTarPerm extractEntry vendor/benchmark.js/benchmark.js
+354 silly gunzTarPerm modified mode [ 'vendor/benchmark.js/benchmark.js', 438, 420 ]
+355 silly gunzTarPerm extractEntry vendor/benchmark.js/LICENSE.txt
+356 silly gunzTarPerm modified mode [ 'vendor/benchmark.js/LICENSE.txt', 438, 420 ]
+357 silly gunzTarPerm extractEntry tests/run.js
+358 silly gunzTarPerm extractEntry tests/test-form.js
+359 silly gunzTarPerm extractEntry vendor/benchmark.js/nano.jar
+360 silly gunzTarPerm modified mode [ 'vendor/benchmark.js/nano.jar', 438, 420 ]
+361 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/package.json
+362 silly gunzTarPerm extractEntry tests/test-oauth.js
+363 silly gunzTarPerm extractEntry tests/test-params.js
+364 info preinstall sparkxml@0.1.3
+365 silly gunzTarPerm extractEntry vendor/platform.js/README.md
+366 silly gunzTarPerm modified mode [ 'vendor/platform.js/README.md', 438, 420 ]
+367 silly gunzTarPerm extractEntry vendor/platform.js/platform.js
+368 silly gunzTarPerm modified mode [ 'vendor/platform.js/platform.js', 438, 420 ]
+369 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/package.json
+370 silly gunzTarPerm extractEntry vendor/platform.js/LICENSE.txt
+371 silly gunzTarPerm modified mode [ 'vendor/platform.js/LICENSE.txt', 438, 420 ]
+372 silly gunzTarPerm extractEntry vendor/closure-compiler/README
+373 silly gunzTarPerm modified mode [ 'vendor/closure-compiler/README', 438, 420 ]
+374 silly gunzTarPerm extractEntry tests/test-piped-redirect.js
+375 silly gunzTarPerm extractEntry tests/test-pipes.js
+376 silly prepareForInstallMany adding libxmljs@^0.15.0 from sparkxml dependencies
+377 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/package.json
+378 silly gunzTarPerm extractEntry vendor/closure-compiler/compiler.jar
+379 silly gunzTarPerm modified mode [ 'vendor/closure-compiler/compiler.jar', 438, 420 ]
+380 silly cache add args [ 'libxmljs@^0.15.0', null ]
+381 verbose cache add spec libxmljs@^0.15.0
+382 silly cache add parsed spec Result {
+382 silly cache add   raw: 'libxmljs@^0.15.0',
+382 silly cache add   scope: null,
+382 silly cache add   name: 'libxmljs',
+382 silly cache add   rawSpec: '^0.15.0',
+382 silly cache add   spec: '>=0.15.0 <0.16.0',
+382 silly cache add   type: 'range' }
+383 silly addNamed libxmljs@>=0.15.0 <0.16.0
+384 verbose addNamed ">=0.15.0 <0.16.0" is a valid semver range for libxmljs
+385 silly addNameRange { name: 'libxmljs', range: '>=0.15.0 <0.16.0', hasData: false }
+386 silly mapToRegistry name libxmljs
+387 silly mapToRegistry using default registry
+388 silly mapToRegistry registry https://registry.npmjs.org/
+389 silly mapToRegistry uri https://registry.npmjs.org/libxmljs
+390 verbose addNameRange registry:https://registry.npmjs.org/libxmljs not in flight; fetching
+391 silly gunzTarPerm extractEntry tests/test-pool.js
+392 silly gunzTarPerm extractEntry tests/test-follow-all.js
+393 verbose request uri https://registry.npmjs.org/libxmljs
+394 verbose request no auth needed
+395 info attempt registry request try #1 at 11:11:19 PM
+396 http request GET https://registry.npmjs.org/libxmljs
+397 silly gunzTarPerm extractEntry tests/test-protocol-changing-redirect.js
+398 silly gunzTarPerm extractEntry tests/test-follow-all-303.js
+399 silly gunzTarPerm extractEntry tests/test-proxy.js
+400 silly gunzTarPerm extractEntry tests/test-errors.js
+401 silly gunzTarPerm extractEntry tests/test-qs.js
+402 silly gunzTarPerm extractEntry tests/test-defaults.js
+403 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/package.json
+404 silly gunzTarPerm extractEntry tests/test-redirect.js
+405 silly gunzTarPerm extractEntry tests/test-cookiejar.js
+406 info preinstall xml2json@0.2.4
+407 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/package.json
+408 silly gunzTarPerm extractEntry tests/test-s3.js
+409 silly gunzTarPerm extractEntry tests/test-cookie.js
+410 silly prepareForInstallMany adding node-expat@1.4.1 from xml2json dependencies
+411 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/package.json
+412 silly gunzTarPerm extractEntry tests/test-timeout.js
+413 silly gunzTarPerm extractEntry tests/test-body.js
+414 silly cache add args [ 'node-expat@1.4.1', null ]
+415 verbose cache add spec node-expat@1.4.1
+416 silly cache add parsed spec Result {
+416 silly cache add   raw: 'node-expat@1.4.1',
+416 silly cache add   scope: null,
+416 silly cache add   name: 'node-expat',
+416 silly cache add   rawSpec: '1.4.1',
+416 silly cache add   spec: '1.4.1',
+416 silly cache add   type: 'version' }
+417 silly addNamed node-expat@1.4.1
+418 verbose addNamed "1.4.1" is a plain semver version for node-expat
+419 silly mapToRegistry name node-expat
+420 silly mapToRegistry using default registry
+421 silly mapToRegistry registry https://registry.npmjs.org/
+422 silly mapToRegistry uri https://registry.npmjs.org/node-expat
+423 verbose addNameVersion registry:https://registry.npmjs.org/node-expat not in flight; fetching
+424 silly gunzTarPerm extractEntry tests/test-toJSON.js
+425 silly gunzTarPerm extractEntry tests/server.js
+426 verbose request uri https://registry.npmjs.org/node-expat
+427 verbose request no auth needed
+428 info attempt registry request try #1 at 11:11:19 PM
+429 http request GET https://registry.npmjs.org/node-expat
+430 silly gunzTarPerm extractEntry tests/test-tunnel.js
+431 silly gunzTarPerm extractEntry tests/test-https.js
+432 silly gunzTarPerm extractEntry tests/squid.conf
+433 silly gunzTarPerm extractEntry tests/ssl/ca/server.js
+434 silly gunzTarPerm extractEntry tests/ssl/ca/ca.srl
+435 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crt
+436 silly gunzTarPerm extractEntry tests/ssl/ca/ca.csr
+437 silly gunzTarPerm extractEntry tests/ssl/ca/ca.key
+438 silly gunzTarPerm extractEntry tests/ssl/ca/ca.crl
+439 silly gunzTarPerm extractEntry tests/ssl/ca/server.cnf
+440 silly gunzTarPerm extractEntry tests/ssl/ca/server.crt
+441 silly gunzTarPerm extractEntry tests/ssl/ca/server.csr
+442 silly gunzTarPerm extractEntry tests/ssl/ca/ca.cnf
+443 silly gunzTarPerm extractEntry tests/ssl/ca/server.key
+444 silly gunzTarPerm extractEntry tests/ssl/npm-ca.crt
+445 silly gunzTarPerm extractEntry tests/ssl/test.crt
+446 silly gunzTarPerm extractEntry tests/ssl/test.key
+447 silly gunzTarPerm extractEntry tests/googledoodle.png
+448 silly gunzTarPerm extractEntry tests/unicycle.jpg
+449 silly gunzTarPerm extractEntry vendor/cookie/index.js
+450 silly gunzTarPerm extractEntry vendor/cookie/jar.js
+451 silly gunzTarPerm extractEntry node_modules/form-data/package.json
+452 silly gunzTarPerm extractEntry node_modules/form-data/.npmignore
+453 silly gunzTarPerm extractEntry node_modules/form-data/lib/form_data.js
+454 silly gunzTarPerm extractEntry node_modules/form-data/Makefile
+455 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-project
+456 silly gunzTarPerm extractEntry node_modules/form-data/node-form-data.sublime-workspace
+457 silly gunzTarPerm extractEntry node_modules/form-data/Readme.md
+458 silly gunzTarPerm extractEntry node_modules/form-data/test/common.js
+459 silly gunzTarPerm extractEntry node_modules/form-data/test/run.js
+460 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/bacon.txt
+461 silly gunzTarPerm extractEntry node_modules/form-data/test/fixture/unicycle.jpg
+462 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-form-get-length.js
+463 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-get-boundary.js
+464 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-http-response.js
+465 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-pipe.js
+466 silly gunzTarPerm extractEntry node_modules/form-data/test/integration/test-submit.js
+467 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/package.json
+468 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/README.md
+469 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/LICENSE
+470 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/index.js
+471 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/.gitmodules
+472 http 200 https://registry.npmjs.org/libxmljs
+473 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+473 verbose headers   etag: '"1CBP9RYRZV6FO784DE3PLC93O"',
+473 verbose headers   'content-type': 'application/json',
+473 verbose headers   'cache-control': 'max-age=300',
+473 verbose headers   'content-length': '31798',
+473 verbose headers   'accept-ranges': 'bytes',
+473 verbose headers   date: 'Sat, 02 Jan 2016 07:11:18 GMT',
+473 verbose headers   via: '1.1 varnish',
+473 verbose headers   age: '203',
+473 verbose headers   connection: 'keep-alive',
+473 verbose headers   'x-served-by': 'cache-lax1434-LAX',
+473 verbose headers   'x-cache': 'HIT',
+473 verbose headers   'x-cache-hits': '1',
+473 verbose headers   'x-timer': 'S1451718678.872047,VS0,VE0',
+473 verbose headers   vary: 'Accept' }
+474 silly get cb [ 200,
+474 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+474 silly get     etag: '"1CBP9RYRZV6FO784DE3PLC93O"',
+474 silly get     'content-type': 'application/json',
+474 silly get     'cache-control': 'max-age=300',
+474 silly get     'content-length': '31798',
+474 silly get     'accept-ranges': 'bytes',
+474 silly get     date: 'Sat, 02 Jan 2016 07:11:18 GMT',
+474 silly get     via: '1.1 varnish',
+474 silly get     age: '203',
+474 silly get     connection: 'keep-alive',
+474 silly get     'x-served-by': 'cache-lax1434-LAX',
+474 silly get     'x-cache': 'HIT',
+474 silly get     'x-cache-hits': '1',
+474 silly get     'x-timer': 'S1451718678.872047,VS0,VE0',
+474 silly get     vary: 'Accept' } ]
+475 verbose get saving libxmljs to /Users/str8upknowledge/.npm/registry.npmjs.org/libxmljs/.cache.json
+476 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/lib/async.js
+477 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/async.min.js.gzip
+478 silly addNameRange number 2 { name: 'libxmljs', range: '>=0.15.0 <0.16.0', hasData: true }
+479 silly addNameRange versions [ 'libxmljs',
+479 silly addNameRange   [ '0.4.1',
+479 silly addNameRange     '0.4.2',
+479 silly addNameRange     '0.4.3',
+479 silly addNameRange     '0.5.0',
+479 silly addNameRange     '0.5.1',
+479 silly addNameRange     '0.5.2',
+479 silly addNameRange     '0.5.3',
+479 silly addNameRange     '0.5.4',
+479 silly addNameRange     '0.6.0',
+479 silly addNameRange     '0.6.1',
+479 silly addNameRange     '0.7.0',
+479 silly addNameRange     '0.7.1',
+479 silly addNameRange     '0.8.0',
+479 silly addNameRange     '0.8.1',
+479 silly addNameRange     '0.9.0',
+479 silly addNameRange     '0.10.0',
+479 silly addNameRange     '0.11.0',
+479 silly addNameRange     '0.11.1',
+479 silly addNameRange     '0.12.0',
+479 silly addNameRange     '0.13.0',
+479 silly addNameRange     '0.14.0',
+479 silly addNameRange     '0.14.1',
+479 silly addNameRange     '0.14.2',
+479 silly addNameRange     '0.14.3',
+479 silly addNameRange     '0.15.0',
+479 silly addNameRange     '0.16.0',
+479 silly addNameRange     '0.16.1' ] ]
+480 silly addNamed libxmljs@0.15.0
+481 verbose addNamed "0.15.0" is a plain semver version for libxmljs
+482 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/Makefile
+483 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/nodelint.cfg
+484 silly mapToRegistry name libxmljs
+485 silly mapToRegistry using default registry
+486 silly mapToRegistry registry https://registry.npmjs.org/
+487 silly mapToRegistry uri https://registry.npmjs.org/libxmljs
+488 verbose addRemoteTarball https://registry.npmjs.org/libxmljs/-/libxmljs-0.15.0.tgz not in flight; adding
+489 verbose addRemoteTarball [ 'https://registry.npmjs.org/libxmljs/-/libxmljs-0.15.0.tgz',
+489 verbose addRemoteTarball   'e83dc490e59aa0bc22941fe5a6ad9ef99294f965' ]
+490 info retry fetch attempt 1 at 11:11:19 PM
+491 info attempt registry request try #1 at 11:11:19 PM
+492 http fetch GET https://registry.npmjs.org/libxmljs/-/libxmljs-0.15.0.tgz
+493 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.js
+494 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/deps/nodeunit.css
+495 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/dist/async.min.js
+496 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test-async.js
+497 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/.swp
+498 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/async/test/test.html
+499 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/package.json
+500 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/.npmignore
+501 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/lib/combined_stream.js
+502 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/License
+503 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Makefile
+504 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/Readme.md
+505 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/common.js
+506 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/run.js
+507 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file1.txt
+508 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/fixture/file2.txt
+509 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-callback-streams.js
+510 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-data-size.js
+511 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams-and-buffers-and-strings.js
+512 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-delayed-streams.js
+513 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-max-data-size.js
+514 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/test/integration/test-unpaused-streams.js
+515 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json
+516 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/.npmignore
+517 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/lib/delayed_stream.js
+518 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/License
+519 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Makefile
+520 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/Readme.md
+521 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/common.js
+522 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/run.js
+523 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-http-upload.js
+524 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-auto-pause.js
+525 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream-pause.js
+526 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-delayed-stream.js
+527 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-handle-source-errors.js
+528 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-max-data-size.js
+529 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-pipe-resumes.js
+530 silly gunzTarPerm extractEntry node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/test/integration/test-proxy-readable.js
+531 silly gunzTarPerm extractEntry node_modules/mime/package.json
+532 silly gunzTarPerm extractEntry node_modules/mime/README.md
+533 silly gunzTarPerm extractEntry node_modules/mime/LICENSE
+534 silly gunzTarPerm extractEntry node_modules/mime/mime.js
+535 silly gunzTarPerm extractEntry node_modules/mime/test.js
+536 silly gunzTarPerm extractEntry node_modules/mime/types/mime.types
+537 silly gunzTarPerm extractEntry node_modules/mime/types/node.types
+538 silly gunzTarPerm extractEntry vendor/closure-compiler/COPYING
+539 silly gunzTarPerm modified mode [ 'vendor/closure-compiler/COPYING', 438, 420 ]
+540 silly gunzTarPerm extractEntry vendor/qunit/README.md
+541 silly gunzTarPerm modified mode [ 'vendor/qunit/README.md', 438, 420 ]
+542 silly gunzTarPerm extractEntry vendor/qunit/qunit/qunit-1.8.0.js
+543 silly gunzTarPerm modified mode [ 'vendor/qunit/qunit/qunit-1.8.0.js', 438, 420 ]
+544 silly gunzTarPerm extractEntry vendor/qunit/qunit/qunit.js
+545 silly gunzTarPerm modified mode [ 'vendor/qunit/qunit/qunit.js', 438, 420 ]
+546 silly gunzTarPerm extractEntry vendor/qunit-clib/README.md
+547 silly gunzTarPerm modified mode [ 'vendor/qunit-clib/README.md', 438, 420 ]
+548 silly gunzTarPerm extractEntry vendor/qunit-clib/qunit-clib.js
+549 silly gunzTarPerm modified mode [ 'vendor/qunit-clib/qunit-clib.js', 438, 420 ]
+550 silly gunzTarPerm extractEntry vendor/qunit-clib/LICENSE.txt
+551 silly gunzTarPerm modified mode [ 'vendor/qunit-clib/LICENSE.txt', 438, 420 ]
+552 silly gunzTarPerm extractEntry vendor/uglifyjs/uglify-js.js
+553 silly gunzTarPerm modified mode [ 'vendor/uglifyjs/uglify-js.js', 438, 420 ]
+554 silly gunzTarPerm extractEntry vendor/uglifyjs/lib/consolidator.js
+555 silly gunzTarPerm modified mode [ 'vendor/uglifyjs/lib/consolidator.js', 438, 420 ]
+556 silly gunzTarPerm extractEntry vendor/uglifyjs/lib/parse-js.js
+557 silly gunzTarPerm modified mode [ 'vendor/uglifyjs/lib/parse-js.js', 438, 420 ]
+558 silly gunzTarPerm extractEntry vendor/uglifyjs/lib/process.js
+559 silly gunzTarPerm modified mode [ 'vendor/uglifyjs/lib/process.js', 438, 420 ]
+560 silly gunzTarPerm extractEntry vendor/uglifyjs/lib/squeeze-more.js
+561 silly gunzTarPerm modified mode [ 'vendor/uglifyjs/lib/squeeze-more.js', 438, 420 ]
+562 silly gunzTarPerm extractEntry vendor/uglifyjs/README.org
+563 silly gunzTarPerm modified mode [ 'vendor/uglifyjs/README.org', 438, 420 ]
+564 silly gunzTarPerm extractEntry vendor/underscore/README.md
+565 silly gunzTarPerm modified mode [ 'vendor/underscore/README.md', 438, 420 ]
+566 silly gunzTarPerm extractEntry vendor/underscore/LICENSE
+567 silly gunzTarPerm modified mode [ 'vendor/underscore/LICENSE', 438, 420 ]
+568 silly gunzTarPerm extractEntry vendor/underscore/underscore-min.js
+569 silly gunzTarPerm modified mode [ 'vendor/underscore/underscore-min.js', 438, 420 ]
+570 silly gunzTarPerm extractEntry vendor/underscore/underscore.js
+571 silly gunzTarPerm modified mode [ 'vendor/underscore/underscore.js', 438, 420 ]
+572 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash/package.json
+573 info preinstall lodash@0.6.1
+574 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash/package.json
+575 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash/package.json
+576 silly install resolved []
+577 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+578 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+579 info linkStuff lodash@0.6.1
+580 silly linkStuff lodash@0.6.1 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules as its parent node_modules
+581 verbose linkBins lodash@0.6.1
+582 verbose link bins [ { lodash: './build.js' },
+582 verbose link bins   '/Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/.bin',
+582 verbose link bins   false ]
+583 verbose linkMans lodash@0.6.1
+584 verbose rebuildBundles lodash@0.6.1
+585 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/.bin/lodash is being purged
+586 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/.bin/lodash
+587 info install lodash@0.6.1
+588 info postinstall lodash@0.6.1
+589 verbose unlock done using /Users/str8upknowledge/.npm/_locks/lodash-d7e01ec9b547d624.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/lodash
+590 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/package.json
+591 info preinstall request@2.11.4
+592 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/package.json
+593 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/package.json
+594 verbose targetResolver reading package data from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules/form-data/package.json
+595 verbose targetResolver reading package data from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules/mime/package.json
+596 info package.json mime@1.2.7 No license field.
+597 info package.json form-data@0.0.3 No license field.
+598 verbose installMany form-data@0.0.3 was bundled with request@2.11.4
+599 verbose installMany mime@1.2.7 was bundled with request@2.11.4
+600 silly install resolved []
+601 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+602 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+603 info linkStuff request@2.11.4
+604 silly linkStuff request@2.11.4 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules as its parent node_modules
+605 verbose linkBins request@2.11.4
+606 verbose linkMans request@2.11.4
+607 verbose rebuildBundles request@2.11.4
+608 verbose rebuildBundles [ 'form-data', 'mime' ]
+609 verbose rebuild bundle /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules/form-data
+610 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules/form-data
+611 info preinstall form-data@0.0.3
+612 info linkStuff form-data@0.0.3
+613 silly linkStuff form-data@0.0.3 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules as its parent node_modules
+614 verbose linkBins form-data@0.0.3
+615 verbose linkMans form-data@0.0.3
+616 verbose rebuildBundles form-data@0.0.3
+617 verbose rebuildBundles [ 'async', 'combined-stream' ]
+618 info install form-data@0.0.3
+619 info postinstall form-data@0.0.3
+620 verbose rebuild bundle /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules/mime
+621 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules/mime
+622 info preinstall mime@1.2.7
+623 info linkStuff mime@1.2.7
+624 silly linkStuff mime@1.2.7 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request/node_modules as its parent node_modules
+625 verbose linkBins mime@1.2.7
+626 verbose linkMans mime@1.2.7
+627 verbose rebuildBundles mime@1.2.7
+628 info install mime@1.2.7
+629 info postinstall mime@1.2.7
+630 info install request@2.11.4
+631 info postinstall request@2.11.4
+632 verbose unlock done using /Users/str8upknowledge/.npm/_locks/request-bda9f744057a3773.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/request
+633 http 200 https://registry.npmjs.org/node-expat
+634 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+634 verbose headers   etag: '"ECSRP2PN6HQ5UDHQ55WSC9FXJ"',
+634 verbose headers   'content-type': 'application/json',
+634 verbose headers   'cache-control': 'max-age=300',
+634 verbose headers   'content-length': '54496',
+634 verbose headers   'accept-ranges': 'bytes',
+634 verbose headers   date: 'Sat, 02 Jan 2016 07:11:19 GMT',
+634 verbose headers   via: '1.1 varnish',
+634 verbose headers   age: '0',
+634 verbose headers   connection: 'keep-alive',
+634 verbose headers   'x-served-by': 'cache-lax1428-LAX',
+634 verbose headers   'x-cache': 'HIT',
+634 verbose headers   'x-cache-hits': '1',
+634 verbose headers   'x-timer': 'S1451718678.902479,VS0,VE308',
+634 verbose headers   vary: 'Accept' }
+635 silly get cb [ 200,
+635 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+635 silly get     etag: '"ECSRP2PN6HQ5UDHQ55WSC9FXJ"',
+635 silly get     'content-type': 'application/json',
+635 silly get     'cache-control': 'max-age=300',
+635 silly get     'content-length': '54496',
+635 silly get     'accept-ranges': 'bytes',
+635 silly get     date: 'Sat, 02 Jan 2016 07:11:19 GMT',
+635 silly get     via: '1.1 varnish',
+635 silly get     age: '0',
+635 silly get     connection: 'keep-alive',
+635 silly get     'x-served-by': 'cache-lax1428-LAX',
+635 silly get     'x-cache': 'HIT',
+635 silly get     'x-cache-hits': '1',
+635 silly get     'x-timer': 'S1451718678.902479,VS0,VE308',
+635 silly get     vary: 'Accept' } ]
+636 verbose get saving node-expat to /Users/str8upknowledge/.npm/registry.npmjs.org/node-expat/.cache.json
+637 silly mapToRegistry name node-expat
+638 silly mapToRegistry using default registry
+639 silly mapToRegistry registry https://registry.npmjs.org/
+640 silly mapToRegistry uri https://registry.npmjs.org/node-expat
+641 verbose addRemoteTarball https://registry.npmjs.org/node-expat/-/node-expat-1.4.1.tgz not in flight; adding
+642 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-expat/-/node-expat-1.4.1.tgz',
+642 verbose addRemoteTarball   'dd94743c822f7c8cfa0fe07e596850ed401fdc96' ]
+643 info retry fetch attempt 1 at 11:11:19 PM
+644 info attempt registry request try #1 at 11:11:19 PM
+645 http fetch GET https://registry.npmjs.org/node-expat/-/node-expat-1.4.1.tgz
+646 http fetch 200 https://registry.npmjs.org/libxmljs/-/libxmljs-0.15.0.tgz
+647 http fetch 200 https://registry.npmjs.org/node-expat/-/node-expat-1.4.1.tgz
+648 silly fetchAndShaCheck shasum dd94743c822f7c8cfa0fe07e596850ed401fdc96
+649 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/node-expat/-/node-expat-1.4.1.tgz not in flight; adding
+650 verbose addTmpTarball already have metadata; skipping unpack for node-expat@1.4.1
+651 silly cache afterAdd node-expat@1.4.1
+652 verbose afterAdd /Users/str8upknowledge/.npm/node-expat/1.4.1/package/package.json not in flight; writing
+653 verbose afterAdd /Users/str8upknowledge/.npm/node-expat/1.4.1/package/package.json written
+654 silly install resolved [ { name: 'node-expat',
+654 silly install resolved     version: '1.4.1',
+654 silly install resolved     main: './lib/node-expat',
+654 silly install resolved     description: 'NodeJS binding for fast XML parsing.',
+654 silly install resolved     scripts:
+654 silly install resolved      { install: 'node-waf configure build',
+654 silly install resolved        update: 'node-waf build',
+654 silly install resolved        test: 'node test.js' },
+654 silly install resolved     dependencies: {},
+654 silly install resolved     devDependencies: { vows: '' },
+654 silly install resolved     repositories: [ [Object] ],
+654 silly install resolved     homepage: 'http://github.com/astro/node-expat',
+654 silly install resolved     bugs: { name: 'http://github.com/astro/node-expat/issues' },
+654 silly install resolved     maintainers: [ [Object] ],
+654 silly install resolved     contributors: [ [Object], [Object], [Object], [Object], [Object] ],
+654 silly install resolved     licenses: [ [Object] ],
+654 silly install resolved     engine: 'node',
+654 silly install resolved     _npmUser: { name: 'astro', email: 'astro@spaceboyz.net' },
+654 silly install resolved     _id: 'node-expat@1.4.1',
+654 silly install resolved     engines: { node: '*' },
+654 silly install resolved     _engineSupported: true,
+654 silly install resolved     _npmVersion: '1.0.103',
+654 silly install resolved     _nodeVersion: 'v0.4.12',
+654 silly install resolved     _defaultsLoaded: true,
+654 silly install resolved     dist:
+654 silly install resolved      { shasum: 'dd94743c822f7c8cfa0fe07e596850ed401fdc96',
+654 silly install resolved        tarball: 'http://registry.npmjs.org/node-expat/-/node-expat-1.4.1.tgz' },
+654 silly install resolved     directories: {},
+654 silly install resolved     _shasum: 'dd94743c822f7c8cfa0fe07e596850ed401fdc96',
+654 silly install resolved     _resolved: 'https://registry.npmjs.org/node-expat/-/node-expat-1.4.1.tgz',
+654 silly install resolved     _from: 'node-expat@1.4.1' } ]
+655 info install node-expat@1.4.1 into /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+656 info installOne node-expat@1.4.1
+657 verbose installOne of node-expat to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json not in flight; installing
+658 verbose lock using /Users/str8upknowledge/.npm/_locks/node-expat-5f8196663ad499d8.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+659 silly install write writing node-expat 1.4.1 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+660 verbose unbuild node_modules/open311/node_modules/xml2json/node_modules/node-expat
+661 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat is being purged from base /Users/str8upknowledge/Desktop/app
+662 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+663 verbose tar unpack /Users/str8upknowledge/.npm/node-expat/1.4.1/package.tgz
+664 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+665 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat is being purged
+666 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+667 silly gunzTarPerm modes [ '755', '644' ]
+668 silly gunzTarPerm extractEntry LICENSE
+669 silly gunzTarPerm extractEntry package.json
+670 silly gunzTarPerm extractEntry test.js
+671 silly gunzTarPerm extractEntry wscript
+672 silly gunzTarPerm extractEntry bench.js
+673 silly gunzTarPerm extractEntry node-expat.cc
+674 silly gunzTarPerm extractEntry .gitignore
+675 silly gunzTarPerm extractEntry README.markdown
+676 silly gunzTarPerm extractEntry lib/node-expat.js
+677 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat/package.json
+678 info preinstall node-expat@1.4.1
+679 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat/package.json
+680 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat/package.json
+681 silly install resolved []
+682 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+683 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+684 info linkStuff node-expat@1.4.1
+685 silly linkStuff node-expat@1.4.1 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules as its parent node_modules
+686 verbose linkBins node-expat@1.4.1
+687 verbose linkMans node-expat@1.4.1
+688 verbose rebuildBundles node-expat@1.4.1
+689 info install node-expat@1.4.1
+690 verbose unsafe-perm in lifecycle false
+691 info node-expat@1.4.1 Failed to exec install script
+692 verbose unlock done using /Users/str8upknowledge/.npm/_locks/node-expat-5f8196663ad499d8.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+693 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+694 verbose unlock done using /Users/str8upknowledge/.npm/_locks/xml2json-0beaaa5cfcf0cac5.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+695 silly fetchAndShaCheck shasum e83dc490e59aa0bc22941fe5a6ad9ef99294f965
+696 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/libxmljs/-/libxmljs-0.15.0.tgz not in flight; adding
+697 verbose addTmpTarball already have metadata; skipping unpack for libxmljs@0.15.0
+698 silly cache afterAdd libxmljs@0.15.0
+699 verbose afterAdd /Users/str8upknowledge/.npm/libxmljs/0.15.0/package/package.json not in flight; writing
+700 verbose afterAdd /Users/str8upknowledge/.npm/libxmljs/0.15.0/package/package.json written
+701 silly install resolved [ { name: 'libxmljs',
+701 silly install resolved     author: { name: 'Marco Rogers' },
+701 silly install resolved     contributors: [ [Object] ],
+701 silly install resolved     description: 'libxml bindings for v8 javascript engine',
+701 silly install resolved     version: '0.15.0',
+701 silly install resolved     scripts:
+701 silly install resolved      { test: 'node --expose_gc ./node_modules/.bin/nodeunit test',
+701 silly install resolved        install: 'node-gyp rebuild' },
+701 silly install resolved     repository:
+701 silly install resolved      { type: 'git',
+701 silly install resolved        url: 'git+ssh://git@github.com/polotek/libxmljs.git' },
+701 silly install resolved     bugs: { url: 'http://github.com/polotek/libxmljs/issues' },
+701 silly install resolved     main: './index',
+701 silly install resolved     license: 'MIT',
+701 silly install resolved     engines: { node: '>=0.8.0' },
+701 silly install resolved     dependencies: { bindings: '1.2.1', nan: '2.0.7' },
+701 silly install resolved     devDependencies: { nodeunit: '0.9.0' },
+701 silly install resolved     gypfile: true,
+701 silly install resolved     gitHead: '9791526bcb9b57c8c12bca32225e28397eba64c6',
+701 silly install resolved     homepage: 'https://github.com/polotek/libxmljs#readme',
+701 silly install resolved     _id: 'libxmljs@0.15.0',
+701 silly install resolved     _shasum: 'e83dc490e59aa0bc22941fe5a6ad9ef99294f965',
+701 silly install resolved     _from: 'libxmljs@>=0.15.0 <0.16.0',
+701 silly install resolved     _npmVersion: '2.14.3',
+701 silly install resolved     _nodeVersion: '4.1.0',
+701 silly install resolved     _npmUser: { name: 'defunctzombie', email: 'shtylman@gmail.com' },
+701 silly install resolved     dist:
+701 silly install resolved      { shasum: 'e83dc490e59aa0bc22941fe5a6ad9ef99294f965',
+701 silly install resolved        tarball: 'http://registry.npmjs.org/libxmljs/-/libxmljs-0.15.0.tgz' },
+701 silly install resolved     maintainers: [ [Object], [Object] ],
+701 silly install resolved     directories: {},
+701 silly install resolved     _resolved: 'https://registry.npmjs.org/libxmljs/-/libxmljs-0.15.0.tgz' } ]
+702 info install libxmljs@0.15.0 into /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+703 info installOne libxmljs@0.15.0
+704 verbose installOne of libxmljs to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml not in flight; installing
+705 verbose lock using /Users/str8upknowledge/.npm/_locks/libxmljs-220ce1662342a3a1.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+706 silly install write writing libxmljs 0.15.0 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+707 verbose unbuild node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+708 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs is being purged from base /Users/str8upknowledge/Desktop/app
+709 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+710 verbose tar unpack /Users/str8upknowledge/.npm/libxmljs/0.15.0/package.tgz
+711 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+712 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs is being purged
+713 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+714 silly gunzTarPerm modes [ '755', '644' ]
+715 silly gunzTarPerm extractEntry package.json
+716 silly gunzTarPerm extractEntry .npmignore
+717 silly gunzTarPerm extractEntry README.md
+718 silly gunzTarPerm extractEntry LICENSE
+719 silly gunzTarPerm extractEntry index.js
+720 silly gunzTarPerm extractEntry examples/cdata.js
+721 silly gunzTarPerm extractEntry binding.gyp
+722 silly gunzTarPerm extractEntry Makefile
+723 silly gunzTarPerm extractEntry lib/bindings.js
+724 silly gunzTarPerm extractEntry lib/comment.js
+725 silly gunzTarPerm extractEntry lib/document.js
+726 silly gunzTarPerm extractEntry lib/element.js
+727 silly gunzTarPerm extractEntry lib/sax_parser.js
+728 silly gunzTarPerm extractEntry test/attribute.js
+729 silly gunzTarPerm extractEntry test/element.js
+730 silly gunzTarPerm extractEntry test/xml_parser.js
+731 silly gunzTarPerm extractEntry test/html_parser.js
+732 silly gunzTarPerm extractEntry test/main.js
+733 silly gunzTarPerm extractEntry test/document.js
+734 silly gunzTarPerm extractEntry test/node_attributes.js
+735 silly gunzTarPerm extractEntry test/ref_integrity.js
+736 silly gunzTarPerm extractEntry test/searching.js
+737 silly gunzTarPerm extractEntry test/text_node.js
+738 silly gunzTarPerm extractEntry test/traversal.js
+739 silly gunzTarPerm extractEntry test/comment.js
+740 silly gunzTarPerm extractEntry test/xml_sax_parser.js
+741 silly gunzTarPerm extractEntry test/namespace.js
+742 silly gunzTarPerm extractEntry test/fixtures/errors/comment.xml
+743 silly gunzTarPerm extractEntry test/fixtures/parser-utf16.xml
+744 silly gunzTarPerm extractEntry test/fixtures/parser.euc_jp.html
+745 silly gunzTarPerm extractEntry test/fixtures/parser.html
+746 silly gunzTarPerm extractEntry test/fixtures/parser.xml
+747 silly gunzTarPerm extractEntry test/fixtures/sax_parser.xml
+748 silly gunzTarPerm extractEntry test/fixtures/warnings/amp.html
+749 silly gunzTarPerm extractEntry test/fixtures/warnings/ent9.xml
+750 silly gunzTarPerm extractEntry .travis.yml
+751 silly gunzTarPerm extractEntry src/xml_element.h
+752 silly gunzTarPerm extractEntry src/html_document.cc
+753 silly gunzTarPerm extractEntry src/libxmljs.cc
+754 silly gunzTarPerm extractEntry src/libxmljs.h
+755 silly gunzTarPerm extractEntry src/xml_attribute.cc
+756 silly gunzTarPerm extractEntry src/xml_attribute.h
+757 silly gunzTarPerm extractEntry src/xml_comment.cc
+758 silly gunzTarPerm extractEntry src/xml_comment.h
+759 silly gunzTarPerm extractEntry src/xml_document.cc
+760 silly gunzTarPerm extractEntry src/xml_document.h
+761 silly gunzTarPerm extractEntry src/xml_element.cc
+762 silly gunzTarPerm extractEntry src/html_document.h
+763 silly gunzTarPerm extractEntry src/xml_namespace.cc
+764 silly gunzTarPerm extractEntry src/xml_namespace.h
+765 silly gunzTarPerm extractEntry src/xml_node.cc
+766 silly gunzTarPerm extractEntry src/xml_node.h
+767 silly gunzTarPerm extractEntry src/xml_sax_parser.cc
+768 silly gunzTarPerm extractEntry src/xml_sax_parser.h
+769 silly gunzTarPerm extractEntry src/xml_syntax_error.cc
+770 silly gunzTarPerm extractEntry src/xml_syntax_error.h
+771 silly gunzTarPerm extractEntry src/xml_xpath_context.cc
+772 silly gunzTarPerm extractEntry src/xml_xpath_context.h
+773 silly gunzTarPerm extractEntry vendor/libxml/schematron.c
+774 silly gunzTarPerm extractEntry vendor/libxml/DOCBparser.c
+775 silly gunzTarPerm extractEntry vendor/libxml/HTMLtree.c
+776 silly gunzTarPerm extractEntry vendor/libxml/SAX.c
+777 silly gunzTarPerm extractEntry vendor/libxml/SAX2.c
+778 silly gunzTarPerm extractEntry vendor/libxml/buf.c
+779 silly gunzTarPerm extractEntry vendor/libxml/buf.h
+780 silly gunzTarPerm extractEntry vendor/libxml/c14n.c
+781 silly gunzTarPerm extractEntry vendor/libxml/catalog.c
+782 silly gunzTarPerm extractEntry vendor/libxml/chvalid.c
+783 silly gunzTarPerm extractEntry vendor/libxml/config.h
+784 silly gunzTarPerm extractEntry vendor/libxml/debugXML.c
+785 silly gunzTarPerm extractEntry vendor/libxml/dict.c
+786 silly gunzTarPerm extractEntry vendor/libxml/elfgcchack.h
+787 silly gunzTarPerm extractEntry vendor/libxml/enc.h
+788 silly gunzTarPerm extractEntry vendor/libxml/encoding.c
+789 silly gunzTarPerm extractEntry vendor/libxml/entities.c
+790 silly gunzTarPerm extractEntry vendor/libxml/error.c
+791 silly gunzTarPerm extractEntry vendor/libxml/globals.c
+792 silly gunzTarPerm extractEntry vendor/libxml/hash.c
+793 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/schematron.h
+794 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/DOCBparser.h
+795 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/HTMLtree.h
+796 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/Makefile
+797 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/Makefile.am
+798 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/Makefile.in
+799 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/SAX.h
+800 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/SAX2.h
+801 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/c14n.h
+802 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/catalog.h
+803 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/chvalid.h
+804 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/debugXML.h
+805 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/dict.h
+806 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/encoding.h
+807 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/entities.h
+808 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/globals.h
+809 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/hash.h
+810 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/list.h
+811 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/nanoftp.h
+812 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/nanohttp.h
+813 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/parser.h
+814 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/parserInternals.h
+815 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/pattern.h
+816 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/relaxng.h
+817 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/schemasInternals.h
+818 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/HTMLparser.h
+819 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/threads.h
+820 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/tree.h
+821 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/uri.h
+822 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/valid.h
+823 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xinclude.h
+824 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xlink.h
+825 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlIO.h
+826 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlautomata.h
+827 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlerror.h
+828 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlexports.h
+829 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlmemory.h
+830 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlmodule.h
+831 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlreader.h
+832 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlregexp.h
+833 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlsave.h
+834 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlschemas.h
+835 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlschemastypes.h
+836 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlstring.h
+837 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlunicode.h
+838 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlversion.h
+839 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xmlwriter.h
+840 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xpath.h
+841 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xpathInternals.h
+842 silly gunzTarPerm extractEntry vendor/libxml/include/libxml/xpointer.h
+843 silly gunzTarPerm extractEntry vendor/libxml/include/win32config.h
+844 silly gunzTarPerm extractEntry vendor/libxml/include/wsockcompat.h
+845 silly gunzTarPerm extractEntry vendor/libxml/legacy.c
+846 silly gunzTarPerm extractEntry vendor/libxml/libxml.gyp
+847 silly gunzTarPerm extractEntry vendor/libxml/libxml.h
+848 silly gunzTarPerm extractEntry vendor/libxml/list.c
+849 silly gunzTarPerm extractEntry vendor/libxml/nanoftp.c
+850 silly gunzTarPerm extractEntry vendor/libxml/nanohttp.c
+851 silly gunzTarPerm extractEntry vendor/libxml/parser.c
+852 silly gunzTarPerm extractEntry vendor/libxml/parserInternals.c
+853 silly gunzTarPerm extractEntry vendor/libxml/pattern.c
+854 silly gunzTarPerm extractEntry vendor/libxml/relaxng.c
+855 silly gunzTarPerm extractEntry vendor/libxml/runsuite.c
+856 silly gunzTarPerm extractEntry vendor/libxml/save.h
+857 silly gunzTarPerm extractEntry vendor/libxml/HTMLparser.c
+858 silly gunzTarPerm extractEntry vendor/libxml/threads.c
+859 silly gunzTarPerm extractEntry vendor/libxml/timsort.h
+860 silly gunzTarPerm extractEntry vendor/libxml/tree.c
+861 silly gunzTarPerm extractEntry vendor/libxml/trio.c
+862 silly gunzTarPerm extractEntry vendor/libxml/trio.h
+863 silly gunzTarPerm extractEntry vendor/libxml/triodef.h
+864 silly gunzTarPerm extractEntry vendor/libxml/trionan.c
+865 silly gunzTarPerm extractEntry vendor/libxml/trionan.h
+866 silly gunzTarPerm extractEntry vendor/libxml/triop.h
+867 silly gunzTarPerm extractEntry vendor/libxml/triostr.c
+868 silly gunzTarPerm extractEntry vendor/libxml/triostr.h
+869 silly gunzTarPerm extractEntry vendor/libxml/uri.c
+870 silly gunzTarPerm extractEntry vendor/libxml/valid.c
+871 silly gunzTarPerm extractEntry vendor/libxml/xinclude.c
+872 silly gunzTarPerm extractEntry vendor/libxml/xlink.c
+873 silly gunzTarPerm extractEntry vendor/libxml/xmlIO.c
+874 silly gunzTarPerm extractEntry vendor/libxml/xmlcatalog.c
+875 silly gunzTarPerm extractEntry vendor/libxml/xmllint.c
+876 silly gunzTarPerm extractEntry vendor/libxml/xmlmemory.c
+877 silly gunzTarPerm extractEntry vendor/libxml/xmlmodule.c
+878 silly gunzTarPerm extractEntry vendor/libxml/xmlreader.c
+879 silly gunzTarPerm extractEntry vendor/libxml/xmlregexp.c
+880 silly gunzTarPerm extractEntry vendor/libxml/xmlsave.c
+881 silly gunzTarPerm extractEntry vendor/libxml/xmlschemas.c
+882 silly gunzTarPerm extractEntry vendor/libxml/xmlschemastypes.c
+883 silly gunzTarPerm extractEntry vendor/libxml/xmlstring.c
+884 silly gunzTarPerm extractEntry vendor/libxml/xmlunicode.c
+885 silly gunzTarPerm extractEntry vendor/libxml/xmlwriter.c
+886 silly gunzTarPerm extractEntry vendor/libxml/xpath.c
+887 silly gunzTarPerm extractEntry vendor/libxml/xpointer.c
+888 silly gunzTarPerm extractEntry vendor/libxml/xzlib.c
+889 silly gunzTarPerm extractEntry vendor/libxml/xzlib.h
+890 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/package.json
+891 info preinstall libxmljs@0.15.0
+892 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/package.json
+893 silly prepareForInstallMany adding bindings@1.2.1 from libxmljs dependencies
+894 silly prepareForInstallMany adding nan@2.0.7 from libxmljs dependencies
+895 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/package.json
+896 silly cache add args [ 'bindings@1.2.1', null ]
+897 verbose cache add spec bindings@1.2.1
+898 silly cache add args [ 'nan@2.0.7', null ]
+899 verbose cache add spec nan@2.0.7
+900 silly cache add parsed spec Result {
+900 silly cache add   raw: 'bindings@1.2.1',
+900 silly cache add   scope: null,
+900 silly cache add   name: 'bindings',
+900 silly cache add   rawSpec: '1.2.1',
+900 silly cache add   spec: '1.2.1',
+900 silly cache add   type: 'version' }
+901 silly addNamed bindings@1.2.1
+902 verbose addNamed "1.2.1" is a plain semver version for bindings
+903 silly mapToRegistry name bindings
+904 silly mapToRegistry using default registry
+905 silly mapToRegistry registry https://registry.npmjs.org/
+906 silly mapToRegistry uri https://registry.npmjs.org/bindings
+907 verbose addNameVersion registry:https://registry.npmjs.org/bindings not in flight; fetching
+908 silly cache add parsed spec Result {
+908 silly cache add   raw: 'nan@2.0.7',
+908 silly cache add   scope: null,
+908 silly cache add   name: 'nan',
+908 silly cache add   rawSpec: '2.0.7',
+908 silly cache add   spec: '2.0.7',
+908 silly cache add   type: 'version' }
+909 silly addNamed nan@2.0.7
+910 verbose addNamed "2.0.7" is a plain semver version for nan
+911 silly mapToRegistry name nan
+912 silly mapToRegistry using default registry
+913 silly mapToRegistry registry https://registry.npmjs.org/
+914 silly mapToRegistry uri https://registry.npmjs.org/nan
+915 verbose addNameVersion registry:https://registry.npmjs.org/nan not in flight; fetching
+916 verbose request uri https://registry.npmjs.org/bindings
+917 verbose request no auth needed
+918 info attempt registry request try #1 at 11:11:20 PM
+919 http request GET https://registry.npmjs.org/bindings
+920 verbose request uri https://registry.npmjs.org/nan
+921 verbose request no auth needed
+922 info attempt registry request try #1 at 11:11:20 PM
+923 http request GET https://registry.npmjs.org/nan
+924 http 200 https://registry.npmjs.org/bindings
+925 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+925 verbose headers   etag: '"2RXG5K4RRQWEOOFOAOOKVPOZR"',
+925 verbose headers   'content-type': 'application/json',
+925 verbose headers   'cache-control': 'max-age=300',
+925 verbose headers   'content-length': '18051',
+925 verbose headers   'accept-ranges': 'bytes',
+925 verbose headers   date: 'Sat, 02 Jan 2016 07:11:19 GMT',
+925 verbose headers   via: '1.1 varnish',
+925 verbose headers   age: '156',
+925 verbose headers   connection: 'keep-alive',
+925 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+925 verbose headers   'x-cache': 'HIT',
+925 verbose headers   'x-cache-hits': '2',
+925 verbose headers   'x-timer': 'S1451718679.967939,VS0,VE0',
+925 verbose headers   vary: 'Accept' }
+926 silly get cb [ 200,
+926 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+926 silly get     etag: '"2RXG5K4RRQWEOOFOAOOKVPOZR"',
+926 silly get     'content-type': 'application/json',
+926 silly get     'cache-control': 'max-age=300',
+926 silly get     'content-length': '18051',
+926 silly get     'accept-ranges': 'bytes',
+926 silly get     date: 'Sat, 02 Jan 2016 07:11:19 GMT',
+926 silly get     via: '1.1 varnish',
+926 silly get     age: '156',
+926 silly get     connection: 'keep-alive',
+926 silly get     'x-served-by': 'cache-lax1433-LAX',
+926 silly get     'x-cache': 'HIT',
+926 silly get     'x-cache-hits': '2',
+926 silly get     'x-timer': 'S1451718679.967939,VS0,VE0',
+926 silly get     vary: 'Accept' } ]
+927 verbose get saving bindings to /Users/str8upknowledge/.npm/registry.npmjs.org/bindings/.cache.json
+928 silly mapToRegistry name bindings
+929 silly mapToRegistry using default registry
+930 silly mapToRegistry registry https://registry.npmjs.org/
+931 silly mapToRegistry uri https://registry.npmjs.org/bindings
+932 verbose addRemoteTarball https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+933 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+933 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+934 info retry fetch attempt 1 at 11:11:20 PM
+935 info attempt registry request try #1 at 11:11:20 PM
+936 http fetch GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+937 http 200 https://registry.npmjs.org/nan
+938 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+938 verbose headers   etag: '"7CEDVJA24M9BXRU7SU6WRSW4M"',
+938 verbose headers   'content-type': 'application/json',
+938 verbose headers   'cache-control': 'max-age=300',
+938 verbose headers   'content-length': '100080',
+938 verbose headers   'accept-ranges': 'bytes',
+938 verbose headers   date: 'Sat, 02 Jan 2016 07:11:19 GMT',
+938 verbose headers   via: '1.1 varnish',
+938 verbose headers   age: '73',
+938 verbose headers   connection: 'keep-alive',
+938 verbose headers   'x-served-by': 'cache-lax1423-LAX',
+938 verbose headers   'x-cache': 'HIT',
+938 verbose headers   'x-cache-hits': '169',
+938 verbose headers   'x-timer': 'S1451718679.972279,VS0,VE0',
+938 verbose headers   vary: 'Accept' }
+939 silly get cb [ 200,
+939 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+939 silly get     etag: '"7CEDVJA24M9BXRU7SU6WRSW4M"',
+939 silly get     'content-type': 'application/json',
+939 silly get     'cache-control': 'max-age=300',
+939 silly get     'content-length': '100080',
+939 silly get     'accept-ranges': 'bytes',
+939 silly get     date: 'Sat, 02 Jan 2016 07:11:19 GMT',
+939 silly get     via: '1.1 varnish',
+939 silly get     age: '73',
+939 silly get     connection: 'keep-alive',
+939 silly get     'x-served-by': 'cache-lax1423-LAX',
+939 silly get     'x-cache': 'HIT',
+939 silly get     'x-cache-hits': '169',
+939 silly get     'x-timer': 'S1451718679.972279,VS0,VE0',
+939 silly get     vary: 'Accept' } ]
+940 verbose get saving nan to /Users/str8upknowledge/.npm/registry.npmjs.org/nan/.cache.json
+941 silly mapToRegistry name nan
+942 silly mapToRegistry using default registry
+943 silly mapToRegistry registry https://registry.npmjs.org/
+944 silly mapToRegistry uri https://registry.npmjs.org/nan
+945 verbose addRemoteTarball https://registry.npmjs.org/nan/-/nan-2.0.7.tgz not in flight; adding
+946 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.0.7.tgz',
+946 verbose addRemoteTarball   'c726ce45dbd863b46234e4dfe5bf02d0cb309cd8' ]
+947 info retry fetch attempt 1 at 11:11:20 PM
+948 info attempt registry request try #1 at 11:11:20 PM
+949 http fetch GET https://registry.npmjs.org/nan/-/nan-2.0.7.tgz
+950 http fetch 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+951 silly fetchAndShaCheck shasum 14ad6113812d2d37d72e67b4cacb4bb726505f11
+952 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/bindings/-/bindings-1.2.1.tgz not in flight; adding
+953 verbose addTmpTarball already have metadata; skipping unpack for bindings@1.2.1
+954 silly cache afterAdd bindings@1.2.1
+955 verbose afterAdd /Users/str8upknowledge/.npm/bindings/1.2.1/package/package.json not in flight; writing
+956 verbose afterAdd /Users/str8upknowledge/.npm/bindings/1.2.1/package/package.json written
+957 http fetch 200 https://registry.npmjs.org/nan/-/nan-2.0.7.tgz
+958 silly fetchAndShaCheck shasum c726ce45dbd863b46234e4dfe5bf02d0cb309cd8
+959 verbose addTmpTarball /tmp/npm-2389-b4071a86/registry.npmjs.org/nan/-/nan-2.0.7.tgz not in flight; adding
+960 verbose addTmpTarball already have metadata; skipping unpack for nan@2.0.7
+961 silly cache afterAdd nan@2.0.7
+962 verbose afterAdd /Users/str8upknowledge/.npm/nan/2.0.7/package/package.json not in flight; writing
+963 verbose afterAdd /Users/str8upknowledge/.npm/nan/2.0.7/package/package.json written
+964 silly install resolved [ { name: 'bindings',
+964 silly install resolved     description: 'Helper module for loading your native module\'s .node file',
+964 silly install resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+964 silly install resolved     version: '1.2.1',
+964 silly install resolved     author:
+964 silly install resolved      { name: 'Nathan Rajlich',
+964 silly install resolved        email: 'nathan@tootallnate.net',
+964 silly install resolved        url: 'http://tootallnate.net' },
+964 silly install resolved     repository:
+964 silly install resolved      { type: 'git',
+964 silly install resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+964 silly install resolved     main: './bindings.js',
+964 silly install resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+964 silly install resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+964 silly install resolved     license: 'MIT',
+964 silly install resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+964 silly install resolved     _id: 'bindings@1.2.1',
+964 silly install resolved     scripts: {},
+964 silly install resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+964 silly install resolved     _from: 'bindings@1.2.1',
+964 silly install resolved     _npmVersion: '1.4.14',
+964 silly install resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+964 silly install resolved     maintainers: [ [Object], [Object] ],
+964 silly install resolved     dist:
+964 silly install resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+964 silly install resolved        tarball: 'http://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+964 silly install resolved     directories: {},
+964 silly install resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+964 silly install resolved   { name: 'nan',
+964 silly install resolved     version: '2.0.7',
+964 silly install resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+964 silly install resolved     main: 'include_dirs.js',
+964 silly install resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+964 silly install resolved     scripts:
+964 silly install resolved      { test: 'tap --gc test/js/*-test.js',
+964 silly install resolved        'rebuild-tests': 'pangyp rebuild --msvs_version=2013 --directory test',
+964 silly install resolved        docs: 'doc/.build.sh' },
+964 silly install resolved     contributors:
+964 silly install resolved      [ [Object],
+964 silly install resolved        [Object],
+964 silly install resolved        [Object],
+964 silly install resolved        [Object],
+964 silly install resolved        [Object],
+964 silly install resolved        [Object],
+964 silly install resolved        [Object] ],
+964 silly install resolved     devDependencies:
+964 silly install resolved      { bindings: '~1.2.1',
+964 silly install resolved        commander: '^2.8.1',
+964 silly install resolved        glob: '^5.0.14',
+964 silly install resolved        'node-gyp': '~2.0.2',
+964 silly install resolved        pangyp: '~2.2.0',
+964 silly install resolved        tap: '~0.7.1',
+964 silly install resolved        xtend: '~4.0.0' },
+964 silly install resolved     license: 'MIT',
+964 silly install resolved     gitHead: 'c68f4bee08ceca279f264903f2b91b54e6e5e168',
+964 silly install resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+964 silly install resolved     homepage: 'https://github.com/nodejs/nan#readme',
+964 silly install resolved     _id: 'nan@2.0.7',
+964 silly install resolved     _shasum: 'c726ce45dbd863b46234e4dfe5bf02d0cb309cd8',
+964 silly install resolved     _from: 'nan@2.0.7',
+964 silly install resolved     _npmVersion: '2.13.3',
+964 silly install resolved     _nodeVersion: '3.0.0',
+964 silly install resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+964 silly install resolved     maintainers: [ [Object], [Object] ],
+964 silly install resolved     dist:
+964 silly install resolved      { shasum: 'c726ce45dbd863b46234e4dfe5bf02d0cb309cd8',
+964 silly install resolved        tarball: 'http://registry.npmjs.org/nan/-/nan-2.0.7.tgz' },
+964 silly install resolved     directories: {},
+964 silly install resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.0.7.tgz' } ]
+965 info install bindings@1.2.1 into /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+966 info install nan@2.0.7 into /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+967 info installOne bindings@1.2.1
+968 verbose installOne of bindings to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs not in flight; installing
+969 info installOne nan@2.0.7
+970 verbose installOne of nan to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs not in flight; installing
+971 verbose lock using /Users/str8upknowledge/.npm/_locks/bindings-8fae33da6b47122b.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+972 verbose lock using /Users/str8upknowledge/.npm/_locks/nan-f22aaa0cbf72c786.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+973 silly install write writing bindings 1.2.1 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+974 silly install write writing nan 2.0.7 to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+975 verbose unbuild node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+976 verbose unbuild node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+977 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings is being purged from base /Users/str8upknowledge/Desktop/app
+978 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+979 verbose tar unpack /Users/str8upknowledge/.npm/bindings/1.2.1/package.tgz
+980 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+981 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings is being purged
+982 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+983 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan is being purged from base /Users/str8upknowledge/Desktop/app
+984 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+985 silly gunzTarPerm modes [ '755', '644' ]
+986 verbose tar unpack /Users/str8upknowledge/.npm/nan/2.0.7/package.tgz
+987 verbose tar unpacking to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+988 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan is being purged
+989 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+990 silly gunzTarPerm modes [ '755', '644' ]
+991 silly gunzTarPerm extractEntry package.json
+992 silly gunzTarPerm extractEntry package.json
+993 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+994 silly gunzTarPerm extractEntry README.md
+995 silly gunzTarPerm extractEntry bindings.js
+996 silly gunzTarPerm extractEntry README.md
+997 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+998 silly gunzTarPerm extractEntry include_dirs.js
+999 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+1000 silly gunzTarPerm extractEntry nan_converters.h
+1001 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+1002 silly gunzTarPerm extractEntry LICENSE.md
+1003 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+1004 silly gunzTarPerm extractEntry .dntrc
+1005 silly gunzTarPerm modified mode [ '.dntrc', 436, 420 ]
+1006 silly gunzTarPerm extractEntry appveyor.yml
+1007 silly gunzTarPerm modified mode [ 'appveyor.yml', 436, 420 ]
+1008 silly gunzTarPerm extractEntry doc/new.md
+1009 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+1010 silly gunzTarPerm extractEntry doc/.build.sh
+1011 silly gunzTarPerm modified mode [ 'doc/.build.sh', 509, 493 ]
+1012 silly gunzTarPerm extractEntry doc/buffers.md
+1013 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+1014 silly gunzTarPerm extractEntry doc/callback.md
+1015 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+1016 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings/package.json
+1017 info preinstall bindings@1.2.1
+1018 silly gunzTarPerm extractEntry doc/converters.md
+1019 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+1020 silly gunzTarPerm extractEntry doc/errors.md
+1021 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+1022 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings/package.json
+1023 silly gunzTarPerm extractEntry doc/maybe_types.md
+1024 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+1025 silly gunzTarPerm extractEntry doc/methods.md
+1026 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+1027 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings/package.json
+1028 silly gunzTarPerm extractEntry doc/asyncworker.md
+1029 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+1030 silly gunzTarPerm extractEntry doc/node_misc.md
+1031 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+1032 silly install resolved []
+1033 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+1034 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+1035 info linkStuff bindings@1.2.1
+1036 silly linkStuff bindings@1.2.1 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules as its parent node_modules
+1037 silly gunzTarPerm extractEntry doc/persistent.md
+1038 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+1039 silly gunzTarPerm extractEntry doc/scopes.md
+1040 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+1041 verbose linkBins bindings@1.2.1
+1042 verbose linkMans bindings@1.2.1
+1043 verbose rebuildBundles bindings@1.2.1
+1044 info install bindings@1.2.1
+1045 info postinstall bindings@1.2.1
+1046 verbose unlock done using /Users/str8upknowledge/.npm/_locks/bindings-8fae33da6b47122b.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/bindings
+1047 silly gunzTarPerm extractEntry doc/script.md
+1048 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+1049 silly gunzTarPerm extractEntry doc/string_bytes.md
+1050 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+1051 silly gunzTarPerm extractEntry doc/v8_internals.md
+1052 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+1053 silly gunzTarPerm extractEntry doc/v8_misc.md
+1054 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+1055 silly gunzTarPerm extractEntry nan.h
+1056 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+1057 silly gunzTarPerm extractEntry nan_callbacks.h
+1058 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+1059 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+1060 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+1061 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+1062 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+1063 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+1064 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+1065 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+1066 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+1067 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+1068 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+1069 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+1070 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+1071 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+1072 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+1073 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+1074 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+1075 silly gunzTarPerm extractEntry nan_new.h
+1076 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+1077 silly gunzTarPerm extractEntry nan_object_wrap.h
+1078 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+1079 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+1080 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+1081 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+1082 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+1083 silly gunzTarPerm extractEntry nan_string_bytes.h
+1084 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+1085 silly gunzTarPerm extractEntry nan_weak.h
+1086 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+1087 silly gunzTarPerm extractEntry CHANGELOG.md
+1088 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+1089 silly gunzTarPerm extractEntry tools/package.json
+1090 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+1091 silly gunzTarPerm extractEntry tools/README.md
+1092 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+1093 silly gunzTarPerm extractEntry tools/1to2.js
+1094 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+1095 verbose write writing to /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan/package.json
+1096 info preinstall nan@2.0.7
+1097 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan/package.json
+1098 verbose readDependencies loading dependencies from /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan/package.json
+1099 silly install resolved []
+1100 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+1101 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+1102 info linkStuff nan@2.0.7
+1103 silly linkStuff nan@2.0.7 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules as its parent node_modules
+1104 verbose linkBins nan@2.0.7
+1105 verbose linkMans nan@2.0.7
+1106 verbose rebuildBundles nan@2.0.7
+1107 info install nan@2.0.7
+1108 info postinstall nan@2.0.7
+1109 verbose unlock done using /Users/str8upknowledge/.npm/_locks/nan-f22aaa0cbf72c786.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs/node_modules/nan
+1110 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+1111 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+1112 info linkStuff libxmljs@0.15.0
+1113 silly linkStuff libxmljs@0.15.0 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules as its parent node_modules
+1114 verbose linkBins libxmljs@0.15.0
+1115 verbose linkMans libxmljs@0.15.0
+1116 verbose rebuildBundles libxmljs@0.15.0
+1117 verbose rebuildBundles [ 'bindings', 'nan' ]
+1118 info install libxmljs@0.15.0
+1119 verbose unsafe-perm in lifecycle false
+1120 info postinstall libxmljs@0.15.0
+1121 verbose unlock done using /Users/str8upknowledge/.npm/_locks/libxmljs-220ce1662342a3a1.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml/node_modules/libxmljs
+1122 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+1123 info build /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+1124 info linkStuff sparkxml@0.1.3
+1125 silly linkStuff sparkxml@0.1.3 has /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules as its parent node_modules
+1126 verbose linkBins sparkxml@0.1.3
+1127 verbose linkMans sparkxml@0.1.3
+1128 verbose rebuildBundles sparkxml@0.1.3
+1129 verbose rebuildBundles [ 'libxmljs' ]
+1130 info install sparkxml@0.1.3
+1131 info postinstall sparkxml@0.1.3
+1132 verbose unlock done using /Users/str8upknowledge/.npm/_locks/sparkxml-451ac0a2700555fc.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/sparkxml
+1133 verbose about to build /Users/str8upknowledge/Desktop/app/node_modules/open311
+1134 verbose unlock done using /Users/str8upknowledge/.npm/_locks/open311-5be1ac040f0c18b6.lock for /Users/str8upknowledge/Desktop/app/node_modules/open311
+1135 verbose stack Error: node-expat@1.4.1 install: `node-waf configure build`
+1135 verbose stack spawn ENOENT
+1135 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+1135 verbose stack     at emitTwo (events.js:87:13)
+1135 verbose stack     at ChildProcess.emit (events.js:172:7)
+1135 verbose stack     at maybeClose (internal/child_process.js:818:16)
+1135 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+1136 verbose pkgid node-expat@1.4.1
+1137 verbose cwd /Users/str8upknowledge/Desktop/app
+1138 error Darwin 15.0.0
+1139 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "open311"
+1140 error node v4.2.3
+1141 error npm  v2.14.7
+1142 error file sh
+1143 error code ELIFECYCLE
+1144 error errno ENOENT
+1145 error syscall spawn
+1146 error node-expat@1.4.1 install: `node-waf configure build`
+1146 error spawn ENOENT
+1147 error Failed at the node-expat@1.4.1 install script 'node-waf configure build'.
+1147 error This is most likely a problem with the node-expat package,
+1147 error not with npm itself.
+1147 error Tell the author that this fails on your system:
+1147 error     node-waf configure build
+1147 error You can get their info via:
+1147 error     npm owner ls node-expat
+1147 error There is likely additional logging output above.
+1148 verbose exit [ 1, true ]
+1149 verbose unbuild node_modules/open311/node_modules/xml2json/node_modules/node-expat
+1150 info preuninstall node-expat@1.4.1
+1151 info uninstall node-expat@1.4.1
+1152 verbose unbuild rmStuff node-expat@1.4.1 from /Users/str8upknowledge/Desktop/app/node_modules
+1153 verbose unbuild rmStuff in /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules
+1154 info postuninstall node-expat@1.4.1
+1155 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat is being purged from base /Users/str8upknowledge/Desktop/app
+1156 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+1157 silly vacuum-fs purging /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules/node-expat
+1158 silly vacuum-fs removing /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json/node_modules
+1159 silly vacuum-fs quitting because other entries in /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+1160 verbose unbuild node_modules/open311/node_modules/xml2json
+1161 info preuninstall xml2json@0.2.4
+1162 info uninstall xml2json@0.2.4
+1163 verbose unbuild rmStuff xml2json@0.2.4 from /Users/str8upknowledge/Desktop/app/node_modules
+1164 verbose unbuild rmStuff in /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules
+1165 info postuninstall xml2json@0.2.4
+1166 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json is being purged from base /Users/str8upknowledge/Desktop/app
+1167 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+1168 silly vacuum-fs purging /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules/xml2json
+1169 silly vacuum-fs quitting because other entries in /Users/str8upknowledge/Desktop/app/node_modules/open311/node_modules
+1170 verbose unbuild node_modules/open311
+1171 info preuninstall open311@0.0.12
+1172 info uninstall open311@0.0.12
+1173 verbose unbuild rmStuff open311@0.0.12 from /Users/str8upknowledge/Desktop/app/node_modules
+1174 info postuninstall open311@0.0.12
+1175 silly gentlyRm /Users/str8upknowledge/Desktop/app/node_modules/open311 is being purged from base /Users/str8upknowledge/Desktop/app
+1176 verbose gentlyRm don't care about contents; nuking /Users/str8upknowledge/Desktop/app/node_modules/open311
+1177 silly vacuum-fs purging /Users/str8upknowledge/Desktop/app/node_modules/open311
+1178 silly vacuum-fs quitting because other entries in /Users/str8upknowledge/Desktop/app/node_modules
