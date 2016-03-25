@@ -1,6 +1,6 @@
 var CityofSJApp = angular.module('starter', ['ionic', 'ngCordova', 'firebase']);
 
-var fb = new Firebase("https://cityofsjapp.firebaseio.com/");
+var fb = new Firebase("https://sj311.firebaseio.com/");
   CityofSJApp.run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
         if(window.cordova && window.cordova.plugins.Keyboard) {
@@ -144,7 +144,7 @@ CityofSJApp.controller('MapController', function($scope, $state, $cordovaGeoloca
         console.log("Could not get location");
         });
 
-  var firebaseUrl = "https://cityofsjapp.firebaseio.com/";
+  var firebaseUrl = "https://sj311.firebaseio.com/";
   
   var firebaseRef = new Firebase(firebaseUrl);
 
@@ -169,7 +169,7 @@ CityofSJApp.controller('MapController', function($scope, $state, $cordovaGeoloca
     var longitude = location.coords.longitude;
     log("Retrieved location: [" + latitude + ", " + longitude + "]");
 
-    var username = "wesley";
+    var username = "username";
     geoFire.set(username, [latitude, longitude]).then(function() {
 
       // When the user disconnects from Firebase (e.g. closes the app, exits the browser),
@@ -255,7 +255,7 @@ CityofSJApp.controller('RequestController', function($scope, $state, $firebaseAr
         }
       };
   //$binding 
-      var ref = new Firebase("https://cityofsjapp.firebaseio.com/");
+      var ref = new Firebase("https://sj311.firebaseio.com/");
   // download the data into a local object
       var syncObject = $firebaseObject(ref);
   // synchronize the object with a three-way data binding
